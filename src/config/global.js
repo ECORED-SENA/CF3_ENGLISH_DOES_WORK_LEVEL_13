@@ -1,8 +1,12 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo:
+      '<span class= r--4> <em>Using our speech to convince others.</em></span> <br> Usando nuestro discurso para convencer a otros.',
+
+    descripcionCurso:
+      'Este componente tendrá como objetivo ayudarle como estudiante a interactuar en inglés de forma oral y escrita dentro de contextos sociales y de acuerdo con los criterios laborales establecidos por el marco común europeo de referencia para las lenguas.',
+
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
