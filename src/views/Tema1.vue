@@ -327,11 +327,7 @@ export default {
   background-repeat: no-repeat
   background-position: center
   background-size: cover
-.bg-dialog
-  background-image: url(../assets/curso/temas/tema1/bg-dialog.svg)
-  background-repeat: no-repeat
-  background-position: center
-  background-size: cover
+
 .bg-1-2
   background-image: url(../assets/curso/temas/tema1/bg-1-2.svg)
   background-repeat: no-repeat

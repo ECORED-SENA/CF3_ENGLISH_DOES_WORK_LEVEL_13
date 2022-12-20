@@ -49,6 +49,7 @@
       span  
         color: #3c3fa7
     .dialogoChat__chat__item__message__bubble
+      padding: 
       background-color: #e1e8ff
       &:before
         background-color: #e1e8ff
@@ -64,3 +65,63 @@
   .dialogoChat__chat__item__person
     span
       display: none !important
+.slyder-a__tipo-a 
+  .slyder-a__btn--sigt
+    right: -22px
+  .slyder-a__btn--atrs
+    left: -22px
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #3c3fa7 
+  opacity: 1
+  border: 0
+  background-image: url(../assets/curso/temas/tema2/arrow-white.svg) !important
+.slyder-a__tipo-a .slyder-a__bullets
+  bottom: 0px
+.acordion__accion__btn--b
+  background-color: #3c3fa7
+  i
+    color: $white
+.tarjeta-titulo
+  position: relative
+  background-color: $white
+  padding: 3rem
+  border-radius: 20px
+  &__titulo
+    position: absolute
+    width: 100%
+    top: 0
+    left: 0
+    transform: translateY(-50%)
+    display: inline-flex
+    text-align: center
+    .titulo
+      margin: 0 auto
+      font-style: italic
+
+  &.color-primario
+    .tarjeta-titulo__titulo
+      .titulo
+        background-color: $color-primario
+  &.color-secundario
+    .tarjeta-titulo__titulo
+      .titulo
+        background-color: $color-secundario
+  &.color-acento-contenido
+    .tarjeta-titulo__titulo
+      .titulo
+        background-color: $color-acento-contenido
+  &.color-acento-botones
+    .tarjeta-titulo__titulo
+      .titulo
+        background-color: $color-acento-botones
+.tarjeta-azul
+  background-color: #a6bbff
+.bg-dialog
+  background-image: url(../assets/curso/temas/tema1/bg-dialog.svg)
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+.dialogo__words__word
+  border-radius: 10px
+  margin: 10px
+  box-shadow: 10px 10px 8px -12px rgba(0,0,0,0.9)
