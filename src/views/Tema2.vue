@@ -270,7 +270,7 @@
       p.mb-5(data-aos='fade-right') Después de haber visto las estructuras gramaticales para usar los verbos de reporte, lo invitamos a explorar el siguiente video: 
       figure
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/uCLK9I_B3EY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
 </template>
@@ -313,17 +313,4 @@ export default {
   background-repeat: no-repeat
   background-size: 100%
   background-position: top
-.card-cta
-  position: relative
-  display: flex
-  // flex-wrap: wrap
-  flex-grow: 1
-  img
-    posiition: inherit
-    bottom: 0
-    left: 0
-    margin-right: -10%
-    margin-top: -10%
-    margin-bottom: -4%
-    transform: translateX(-50%)
 </style>
