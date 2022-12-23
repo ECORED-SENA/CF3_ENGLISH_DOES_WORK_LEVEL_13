@@ -83,7 +83,7 @@
                       p
                   TarjetaAudio.color-acento-contenido.mb-3(
                     texto=""
-                    :audio="require('@/assets/curso/audios/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema3/1.mp3')"
                     style='background-color: #c4d1ff'
                   )
               
@@ -102,7 +102,7 @@
                       p
                   TarjetaAudio.color-acento-contenido.mb-3(
                     texto=""
-                    :audio="require('@/assets/curso/audios/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema3/2.mp3')"
                     style='background-color: #c4d1ff'
                   )
               
@@ -124,7 +124,7 @@
                       p
                   TarjetaAudio.color-acento-contenido.mb-3(
                     texto=""
-                    :audio="require('@/assets/curso/audios/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema3/3.mp3')"
                     style='background-color: #c4d1ff'
                   )
     .bg-3-1.mn.p-5.mb-5
@@ -143,7 +143,7 @@
         .col-lg-8(data-aos="fade-left")
           TarjetaAudio.color-acento-contenido.mb-3(
               texto=""
-              :audio="require('@/assets/curso/audios/1.mp3')"
+              :audio="require('@/assets/curso/audios/tema3/4.mp3')"
               style='background-color: #c4d1ff'
             )
           traductor.color-acento-botones.mb-4
@@ -162,7 +162,7 @@
         .col-lg-8(data-aos="fade-left")
           TarjetaAudio.color-acento-contenido.mb-3(
               texto=""
-              :audio="require('@/assets/curso/audios/1.mp3')"
+              :audio="require('@/assets/curso/audios/tema3/5.mp3')"
               style='background-color: #c4d1ff'
             )
           traductor.color-acento-botones.mb-4
@@ -217,35 +217,35 @@ export default {
         {
           personaje: 'Sue',
           textoIng: 'How was your day today? ',
-          audio: require('@/assets/curso/audios/1.mp3'),
+          audio: require('@/assets/curso/audios/tema3/lucas1.mp3'),
         },
         {
           personaje: 'Jim',
           textoIng:
             'Well, I had to go to the school because there was a rehearsal. ',
-          audio: require('@/assets/curso/audios/1.mp3'),
+          audio: require('@/assets/curso/audios/tema3/sophia1.mp3'),
         },
         {
           personaje: 'Sue',
           textoIng: 'Oh, really? So, did you have any lunch? ',
-          audio: require('@/assets/curso/audios/1.mp3'),
+          audio: require('@/assets/curso/audios/tema3/lucas2.mp3'),
         },
         {
           personaje: 'Jim',
           textoIng:
             'Yes, I did. Because of my levels of sugar, I need to eat well. ',
-          audio: require('@/assets/curso/audios/1.mp3'),
+          audio: require('@/assets/curso/audios/tema3/sophia2.mp3'),
         },
         {
           personaje: 'Sue',
           textoIng:
             'I see. Since my mom has the same issue, I understand what you must do',
-          audio: require('@/assets/curso/audios/1.mp3'),
+          audio: require('@/assets/curso/audios/tema3/lucas3.mp3'),
         },
         {
           personaje: 'Jim',
           textoIng: 'Yes.',
-          audio: require('@/assets/curso/audios/1.mp3'),
+          audio: require('@/assets/curso/audios/tema3/sophia2.mp3'),
         },
       ],
     },
@@ -266,7 +266,7 @@ export default {
           textoIng:
             'What happened with your son´s test? You said you needed to study with him, *** did you study with him? ',
           textoEsp: '',
-          audio: require('@/assets/curso/audios/1.mp3'),
+          audio: require('@/assets/curso/audios/tema3/eliana1.mp3'),
           palabra: 'so (1)',
         },
         {
@@ -275,14 +275,14 @@ export default {
             '*** John&#39s laziness, he did not pass the English test. ',
           textoEsp:
             'Yo necesito el libro de *** y las diapositivas Yo necesito el libro de Yo necesito el libro de Yo necesito el libro de .',
-          audio: require('@/assets/curso/audios/1.mp3'),
+          audio: require('@/assets/curso/audios/tema3/tory1.mp3'),
           palabra: 'Due to',
         },
         {
           personaje: 'Eliana',
           textoIng: 'He failed the test *** his bad study habits. ',
           textoEsp: 'Yo necesito el libro de biologia y las ***.',
-          audio: require('@/assets/curso/audios/1.mp3'),
+          audio: require('@/assets/curso/audios/tema3/eliana2.mp3'),
           palabra: 'because of',
         },
         {
@@ -290,7 +290,7 @@ export default {
           textoIng:
             'But I guess he can have a second chance, *** will you talk to his teacher? ',
           textoEsp: 'Yo *** el libro de biologia y las diapositivas.',
-          audio: require('@/assets/curso/audios/1.mp3'),
+          audio: require('@/assets/curso/audios/tema3/tory2.mp3'),
           palabra: 'so (2)',
         },
         {
@@ -298,7 +298,7 @@ export default {
           textoIng:
             'I will talk to him *** he had planned a meeting on Friday.  ',
           textoEsp: 'Yo necesito el libro de biologia y las ***.',
-          audio: require('@/assets/curso/audios/1.mp3'),
+          audio: require('@/assets/curso/audios/tema3/eliana3.mp3'),
           palabra: 'since',
         },
       ],

@@ -11,11 +11,7 @@ export default {
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/a1.svg'),
       },
     ],
   },
@@ -36,45 +32,87 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: '<em> Collocations</em> (Colocaciones)',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo:
+          '<em> Reporting in a correct way</em> (Informando de manera correcta)',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: '<em> Verb + infinitive</em> ',
+            hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: '<em> Verb + person + infinitive</em>',
+            hash: 't_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo: '<em> Verb + preposition + -ing</em>',
+            hash: 't_2_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.4',
+            titulo: '<em> Verb + that + clause</em> ',
+            hash: 't_2_4',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo:
+          '<em> Expressing cause and effect</em> (Expresando causa y efecto)',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Titulo de primer nivel',
+        titulo:
+          '<em> Rhetorical functions of the speech</em> (Funciones retóricas del discurso)',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema5',
         icono: 'far fa-file-alt',
         numero: '5',
-        titulo: 'Titulo de primer nivel',
+        titulo: '<em> Pronunciation</em> (Pronunciación)',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.1',
+            titulo: '<em> Mixed sounds</em> (Sonidos combinados)',
+            hash: 't_5_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.2',
+            titulo: '<em> Stress words</em> (Golpe de palabra)',
+            hash: 't_5_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.3',
+            titulo:
+              '<em> Rhythm in the sentence and intonation</em> (Ritmo en la frase y entonación)',
+            hash: 't_5_3',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -119,31 +157,95 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Collocations (Colocaciones) ',
+      referencia:
+        'Mel’čuk, I. (1998). Collocations and lexical functions. En A. Cowie, Phraseology. Theory, analysis, and applications, p. 23-53.',
+      tipo: 'Artículo ',
+      link: 'http://olst.ling.umontreal.ca/pdf/CowieLFs.pdf ',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Reporting in a correct way (Informando de manera correcta) ',
+      referencia:
+        'Thompson, G. y Yiyun, Y. (1991). Evaluation in the reporting verbs used in academic papers. Applied linguistics, 12(4), p. 365-382.',
+      tipo: 'Artículo ',
+      link:
+        'https://academic.oup.com/applij/article-abstract/12/4/365/242313?login=false ',
+    },
+    {
+      tema: 'Expressing cause and effect (Expresando causa y efecto) ',
+      referencia:
+        'Xuelan, F. y Kennedy, G. (1992). Expressing causation in written English. RELC Journal, 23(1), p. 62-80.',
+      tipo: 'Artículo ',
+      link: 'https://journals.sagepub.com/doi/abs/10.1177/003368829202300105 ',
+    },
+    {
+      tema:
+        'Rhetorical functions of the speech (Funciones retóricas del discurso) ',
+      referencia:
+        'Frank, J. (1990). You call that a rhetorical question?: Forms and functions of rhetorical questions in conversation. Journal of Pragmatics, 14(5), p. 723-738.',
+      tipo: 'Libro',
+      link:
+        'https://www.sciencedirect.com/science/article/abs/pii/037821669090003V ',
+    },
+    {
+      tema: 'Pronunciation (Pronunciación) ',
+      referencia:
+        'Moulton, W. (1962). Toward a classification of pronunciation errors. The Modern Language Journal, 46(3), p. 101-109.',
+      tipo: 'Artículo ',
+      link: 'https://www.jstor.org/stable/320931',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: '<em>Collocations</em>',
+      significado:
+        'una colocación son dos o más palabras que a menudo van juntas. Estas combinaciones simplemente suenan "bien" para los hablantes nativos de inglés, quienes las usan todo el tiempo. ',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: '<em>Reporting verbs</em>',
+      significado:
+        'un verbo que pertenece a una clase de verbos que transmiten la acción de hablar y se usa tanto con el estilo directo como indirecto. Los verbos informativos también se pueden usar con un objeto directo y con una construcción de infinitivo. ',
+    },
+    {
+      termino: '<em>Linkers</em>',
+      significado:
+        'son palabras o grupos de palabras que conectan frases o ideas del texto. Se sitúan al principio de la oración. Aseguran que el texto tenga una conexión lógica y guían al lector a través de él. ',
+    },
+    {
+      termino: '<em>Connectors</em>',
+      significado:
+        'son conjunciones que unen palabras o proposiciones (partes de la oración) entre sí. Es decir, normalmente se utilizan dentro de una misma frase. ',
+    },
+    {
+      termino: '<em>Pronunciation</em>',
+      significado:
+        'la pronunciación significa cómo decimos las palabras. La mayoría de las personas hablan el dialecto del inglés estándar con un acento que pertenece a la parte del país de donde provienen o en el que viven. ',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Hashemi, L. y Murphy, R. (2004a). <em> English Grammar in Use Supplementary Exercises with Answers.</em> Cambridge University Press. ',
+      link: '',
+    },
+    {
+      referencia:
+        'Hashemi, L. y Murphy, R. (2004b). <em> English Grammar in Use.</em> Supplementary exercises. Cambridge. ',
+      link: '',
+    },
+    {
+      referencia:
+        'Hewings, M. (2013). <em> Advanced grammar in use with answers: A self-study reference and practice book for advanced learners of English.</em> Cambridge University Press. ',
+      link: '',
+    },
+    {
+      referencia:
+        'Murphy, R. (2008). <em> Grammar in use.</em> Cambridge University Press. ',
+      link: '',
+    },
+    {
+      referencia:
+        'Murphy, R., Viney, B. y Craven, M. (2004). <em> English Grammar In Use with Answers and CD ROM: A Self-study Reference and Practice Book for Intermediate Students of English</em> (Vol. 1). Cambridge University Press. ',
       link: '',
     },
   ],
@@ -163,24 +265,25 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
-        cargo: '',
-        centro: '',
+        nombre: 'Edith Grande Triviño ',
+        cargo: 'Experta Temática ',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital-CENIGRAF',
       },
       {
-        nombre: '',
-        cargo: '',
-        centro: '',
+        nombre: 'Gloria Lida Alzate Suárez ',
+        cargo: 'Diseñadora Instruccional ',
+        centro: 'Centro de Gestión Industrial  - Regional Distrito Capital',
       },
       {
-        nombre: '',
-        cargo: '',
-        centro: '',
+        nombre: 'Ana Catalina Córdoba Sus ',
+        cargo: 'Asesora Metodológica ',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital  ',
       },
       {
-        nombre: '',
-        cargo: '',
-        centro: '',
+        nombre: 'Darío González ',
+        cargo: 'Corrector de Estilo ',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
@@ -191,25 +294,48 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Yuly Andrea Rey Quiñonez',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Producción audiovisual',
+        nombre: 'Zuleidy María Ruíz Torres ',
+        cargo: 'Revisión de guion audiovisual ',
+        centro: 'Centro de Comercio y Servicios  - Regional Tolima ',
+      },
+      {
+        nombre: 'Yicelly Estefania Mesa Silva ',
+        cargo: 'Ilustración ',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'John Jairo Arciniegas González ',
+        cargo: 'Producción audiovisual ',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Carmen Alicia Martínez Torres ',
+        cargo: 'Producción audiovisual ',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Lina Marcela Pérez Manchego ',
+        cargo: 'Validación audiovisual ',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Camilo Andres Bolaño Rey',
         cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Lina Marcela Pérez Manchego ',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

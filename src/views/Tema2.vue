@@ -12,7 +12,7 @@
         traductor.color-acento-botones
             .row.justify-content-center(slot="textoIngles")
               .col-lg-1
-                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/1.mp3')")
+                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema2/1.mp3')")
 
               .col-lg-11
                 p.fst-italic When expressing ourselves on a day-to-day basis, we often refer to things that other people have said. We are going to focus on the verbs that we use to introduce the words said by others: informative verbs. 
@@ -45,7 +45,7 @@
                     img(src='@/assets/curso/temas/tema2/3.png' alt='AvatarTop')
                     .tarjeta.w-100(style="background-color: #DDDEFF ")
                       .d-flex.justify-content-center.mt-5
-                          Audio.color-acento-botones.mx-3.mb-3(:audio="require('@/assets/curso/audios/1.mp3')")
+                          Audio.color-acento-botones.mx-3.mb-3(:audio="require('@/assets/curso/audios/tema2/2.mp3')")
                       p.fw-bold.text-center.mb-4 They agreed to meet on #[br] Sunday. 
               .col-lg-5
                 .tarjeta.bg-white.p-3
@@ -53,7 +53,7 @@
                     img(src='@/assets/curso/temas/tema2/4.png' alt='AvatarTop')
                     .tarjeta.w-100(style="background-color: #DDDEFF ")
                       .d-flex.justify-content-center.mt-5
-                          Audio.color-acento-botones.mx-3.mb-3(:audio="require('@/assets/curso/audios/1.mp3')")
+                          Audio.color-acento-botones.mx-3.mb-3(:audio="require('@/assets/curso/audios/tema2/3.mp3')")
                       p.fw-bold.text-center.mb-4 I hope to see you next #[br] Monday. 
             .row.justify-content-center.mb-5
               .col-lg-5
@@ -62,7 +62,7 @@
                     img(src='@/assets/curso/temas/tema2/5.png' alt='AvatarTop')
                     .tarjeta.w-100(style="background-color: #DDDEFF ")
                       .d-flex.justify-content-center.mt-5
-                          Audio.color-acento-botones.mx-3.mb-3(:audio="require('@/assets/curso/audios/1.mp3')")
+                          Audio.color-acento-botones.mx-3.mb-3(:audio="require('@/assets/curso/audios/tema2/4.mp3')")
                       p.fw-bold.text-center.mb-4 He claimed to be an #[br] engineer. 
               .col-lg-5
                 .tarjeta.bg-white.p-3
@@ -70,7 +70,7 @@
                     img(src='@/assets/curso/temas/tema2/6.png' alt='AvatarTop')
                     .tarjeta.w-100(style="background-color: #DDDEFF ")
                       .d-flex.justify-content-center.mt-5
-                          Audio.color-acento-botones.mx-3.mb-3(:audio="require('@/assets/curso/audios/1.mp3')")
+                          Audio.color-acento-botones.mx-3.mb-3(:audio="require('@/assets/curso/audios/tema2/5.mp3')")
                       p.fw-bold.text-center.mb-4 I managed to reach the top #[br] of the mountain.
     Separador
     #t_2_2.titulo-segundo.color-primario(data-aos='fade-right')
@@ -121,7 +121,7 @@
                     traductor.color-acento-botones
                       div(slot="textoIngles")
                         .d-flex.justify-content-center
-                          Audio.color-acento-botones.mx-3.mb-3(:audio="require('@/assets/curso/audios/1.mp3')")
+                          Audio.color-acento-botones.mx-3.mb-3(:audio="require('@/assets/curso/audios/tema2/6.mp3')")
 
 
                         p.fst-italic.text-center I insisted on having seconds - it was delicious! 
@@ -133,7 +133,7 @@
                     traductor.color-acento-botones
                       div(slot="textoIngles")
                         .d-flex.justify-content-center
-                          Audio.color-acento-botones.mx-3.mb-3(:audio="require('@/assets/curso/audios/1.mp3')")
+                          Audio.color-acento-botones.mx-3.mb-3(:audio="require('@/assets/curso/audios/tema2/7.mp3')")
 
 
                         p.fst-italic.text-center I look forward to meeting him.  
@@ -146,7 +146,7 @@
                     traductor.color-acento-botones
                       div(slot="textoIngles")
                         .d-flex.justify-content-center
-                          Audio.color-acento-botones.mx-3.mb-3(:audio="require('@/assets/curso/audios/1.mp3')")
+                          Audio.color-acento-botones.mx-3.mb-3(:audio="require('@/assets/curso/audios/tema2/8.mp3')")
 
 
                         p.fst-italic.text-center Do you feel like going out tomorrow?
@@ -158,7 +158,7 @@
                     traductor.color-acento-botones
                       div(slot="textoIngles")
                         .d-flex.justify-content-center
-                          Audio.color-acento-botones.mx-3.mb-3(:audio="require('@/assets/curso/audios/1.mp3')")
+                          Audio.color-acento-botones.mx-3.mb-3(:audio="require('@/assets/curso/audios/tema2/9.mp3')")
 
 
                         p.fst-italic.text-center  They have decided against moving to the United States.
@@ -171,7 +171,7 @@
                     traductor.color-acento-botones
                       div(slot="textoIngles")
                         .d-flex.justify-content-center
-                          Audio.color-acento-botones.mx-3.mb-3(:audio="require('@/assets/curso/audios/1.mp3')")
+                          Audio.color-acento-botones.mx-3.mb-3(:audio="require('@/assets/curso/audios/tema2/10.mp3')")
 
 
                         p.fst-italic.text-center He doesn't approve of drinking wine.
@@ -197,7 +197,7 @@
           traductor.color-acento-botones
               .row.justify-content-center(slot="textoIngles")
                 .col-lg-1
-                  Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/1.mp3')")
+                  Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema2/11.mp3')")
 
                 .col-lg-11
                   p.fst-italic In the sentence “She agrees that it is hard work,” the verb is “agrees,” and the indicative clause that follows is “it is hard work.” From the point of view of grammar, the conjunction  “that” always introduces the clause after verbs that follow this pattern, but in actual speaking and writing, the word “that” is often omitted by English speakers, especially with the more common verbs such as “say,” “think,” and “know.” The pattern described here is one of the most common verb patterns in English. It is most typically used with verbs of stating, thinking, and believing. Let’s see an example.
@@ -219,50 +219,50 @@
           .tarjeta-slyde.tarjeta.p-3(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/16.jpg')})`}" style="height: 391px; width: 245px")
             .tarjeta.p-2.w-100(style="background-color: #dddeff")
               .d-flex.justify-content-center
-                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/1.mp3')").mb-3
+                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema2/12.mp3')").mb-3
               p.fw-bold.text-center Everyone agrees that we have to act now. 
         .col-lg-3.mb-4.mb-md-0
           .tarjeta-slyde.tarjeta.p-3(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/17.jpg')})`}" style="height: 391px; width: 245px")
             .tarjeta.p-2.w-100(style="background-color: #dddeff")
               .d-flex.justify-content-center
-                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/1.mp3')").mb-3
+                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema2/13.mp3')").mb-3
               p.fw-bold.text-center It’s easy to forget that he’s just a child.
         .col-lg-3.mb-4.mb-md-0
           .tarjeta-slyde.tarjeta.p-3(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/18.jpg')})`}" style="height: 391px; width: 245px")
             .tarjeta.p-2.w-100(style="background-color: #dddeff")
               .d-flex.justify-content-center
-                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/1.mp3')").mb-3
+                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema2/14.mp3')").mb-3
               p.fw-bold.text-center Recent research proves that global warming is getting worse. 
         .col-lg-3.mb-4.mb-md-0
           .tarjeta-slyde.tarjeta.p-3(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/19.jpg')})`}" style="height: 391px; width: 245px")
             .tarjeta.p-2.w-100(style="background-color: #dddeff")
               .d-flex.justify-content-center
-                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/1.mp3')").mb-3
+                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema2/15.mp3')").mb-3
               p.fw-bold.text-center I accept that this is a drawback. 
       .row.justify-content-center
         .col-lg-3.mb-4.mb-md-0
           .tarjeta-slyde.tarjeta.p-3(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/20.jpg')})`}" style="height: 391px; width: 245px")
             .tarjeta.p-2.w-100(style="background-color: #dddeff")
               .d-flex.justify-content-center
-                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/1.mp3')").mb-3
+                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema2/16.mp3')").mb-3
               p.fw-bold.text-center She said that they would be back by Monday. 
         .col-lg-3.mb-4.mb-md-0
           .tarjeta-slyde.tarjeta.p-3(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/21.jpg')})`}" style="height: 391px; width: 245px")
             .tarjeta.p-2.w-100(style="background-color: #dddeff")
               .d-flex.justify-content-center
-                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/1.mp3')").mb-3
+                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema2/17.mp3')").mb-3
               p.fw-bold.text-center They know that this is mandatory. 
         .col-lg-3.mb-4.mb-md-0
           .tarjeta-slyde.tarjeta.p-3(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/22.jpg')})`}" style="height: 391px; width: 245px")
             .tarjeta.p-2.w-100(style="background-color: #dddeff")
               .d-flex.justify-content-center
-                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/1.mp3')").mb-3
+                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema2/18.mp3')").mb-3
               p.fw-bold.text-center I agree that it is risky to drive on this road. 
         .col-lg-3.mb-4.mb-md-0
           .tarjeta-slyde.tarjeta.p-3(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/23.jpg')})`}" style="height: 391px; width: 245px")
             .tarjeta.p-2.w-100(style="background-color: #dddeff")
               .d-flex.justify-content-center
-                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/1.mp3')").mb-3
+                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema2/19.mp3')").mb-3
               p.fw-bold.text-center We suspected that the girl was lying. 
     .mn.p-5(style="background-color: #e1e8ff ")
       p.mb-2(data-aos='fade-right')

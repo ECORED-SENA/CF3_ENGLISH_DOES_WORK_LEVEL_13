@@ -13,17 +13,17 @@
             SlyderA
               div.tarjeta-face(:style="{'background-image': `url(${require('@/assets/curso/temas/tema5/1.svg')})`}" style="height: 412px; width: 505px; border-radius: 20px")
                 .d-flex.justify-content-center.p-5
-                  Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/1.mp3')").mb-3
+                  Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema5/5.mp3')").mb-3
 
               div.tarjeta-face(:style="{'background-image': `url(${require('@/assets/curso/temas/tema5/2.svg')})`}" style="height: 412px; width: 505px; border-radius: 20px")
                 .d-flex.justify-content-center.p-5
-                  Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/1.mp3')").mb-3
+                  Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema5/6.mp3')").mb-3
               div.tarjeta-face(:style="{'background-image': `url(${require('@/assets/curso/temas/tema5/3.svg')})`}" style="height: 412px; width: 505px; border-radius: 20px")
                 .d-flex.justify-content-center.p-5
-                  Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/1.mp3')").mb-3
+                  Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema5/7.mp3')").mb-3
               div.tarjeta-face(:style="{'background-image': `url(${require('@/assets/curso/temas/tema5/4.svg')})`}" style="height: 412px; width: 505px; border-radius: 20px")
                 .d-flex.justify-content-center.p-5
-                  Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/1.mp3')").mb-3
+                  Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema5/8.mp3')").mb-3
       .col-lg-7(data-aos="fade-left")
         traductor.color-acento-botones.mb-4
               div(slot="textoIngles")
@@ -39,7 +39,7 @@
           traductor.color-acento-botones.mb-4
             .row(slot="textoIngles")
               .col-lg-1
-                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/1.mp3')").mb-3
+                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema5/9.mp3')").mb-3
               .col-lg-11
                 p.fst-italic As well as creating correct vowel and consonant sounds using the muscles of our mouth, tongue and lips, there are other important aspects of pronunciation, including: 
             div(slot="textoEspanol")
@@ -98,14 +98,11 @@
       .col-lg-5.col-8(data-aos="fade-right"): img(src='@/assets/curso/temas/tema5/10.png', alt='')
       .col-lg-7
         traductor.color-acento-botones.mb-4
-              .row(slot="textoIngles")
-                .col-lg-1
-                  Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/1.mp3')").mb-3
-                .col-lg-11
-                  p.fst-italic There are 44 sounds in what is called “blends”, they are two or three consonants combined to form a different sound. They would be:#[span.r--2.fw-bold bl, cl, fl, gl, pl, br, cr, dr, fr, gr, pr, tr, sk, sl, sp, st, sw, spr, cr, str.] 
-                    br
-                    br
-                    |We are going to review some of the most common blends in here: 
+              div(slot="textoIngles")
+                p.fst-italic There are 44 sounds in what is called “blends”, they are two or three consonants combined to form a different sound. They would be:#[span.r--2.fw-bold bl, cl, fl, gl, pl, br, cr, dr, fr, gr, pr, tr, sk, sl, sp, st, sw, spr, cr, str.] 
+                  br
+                  br
+                  |We are going to review some of the most common blends in here: 
               div(slot="textoEspanol")
                 p
                   span.r--gris Hay 44 sonidos en lo que se llama “mezclas”, son dos o tres consonantes combinadas para formar un sonido diferente. Serían: #[b bl, cl, fl, gl, pl, br, cr, dr, fr, gr, pr, tr, sk, sl, sp, st, sw, spr, cr, str. Vamos a revisar algunas de las mezclas más comunes:] 
@@ -115,28 +112,28 @@
           .tarjeta-slyde.tarjeta.p-5(:style="{'background-image': `url(${require('@/assets/curso/temas/tema5/11.png')})`}" style="height: 391px; width: 245px")
             .tarjeta.p-4.w-100(style='background-color: #d8d8f1')
               .d-flex.justify-content-center.mb-2
-                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/1.mp3')")
+                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema5/s1.mp3')")
               p.fw-bold.text-center
                 span.r--4.fst-italic Blow
         .col-lg-3.mb-4.mb-md-0
           .tarjeta-slyde.tarjeta.p-5(:style="{'background-image': `url(${require('@/assets/curso/temas/tema5/12.png')})`}" style="height: 391px; width: 245px")
             .tarjeta.p-4.w-100(style='background-color: #d8d8f1')
               .d-flex.justify-content-center.mb-2
-                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/1.mp3')")
+                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema5/s2.mp3')")
               p.fw-bold.text-center
                 span.r--4.fst-italic Blew 
         .col-lg-3.mb-4.mb-md-0
           .tarjeta-slyde.tarjeta.p-5(:style="{'background-image': `url(${require('@/assets/curso/temas/tema5/13.png')})`}" style="height: 391px; width: 245px")
             .tarjeta.p-4.w-100(style='background-color: #d8d8f1')
               .d-flex.justify-content-center.mb-2
-                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/1.mp3')")
+                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema5/s3.mp3')")
               p.fw-bold.text-center
                 span.r--4.fst-italic Bloom
         .col-lg-3.mb-4.mb-md-0
           .tarjeta-slyde.tarjeta.p-5(:style="{'background-image': `url(${require('@/assets/curso/temas/tema5/14.png')})`}" style="height: 391px; width: 245px")
             .tarjeta.p-4.w-100(style='background-color: #d8d8f1')
               .d-flex.justify-content-center.mb-2
-                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/1.mp3')")
+                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema5/s4.mp3')")
               p.fw-bold.text-center
                 span.r--4.fst-italic Blond
       .row.justify-content-center
@@ -144,28 +141,28 @@
           .tarjeta-slyde.tarjeta.p-5(:style="{'background-image': `url(${require('@/assets/curso/temas/tema5/15.png')})`}" style="height: 391px; width: 245px")
             .tarjeta.p-4.w-100(style='background-color: #d8d8f1')
               .d-flex.justify-content-center.mb-2
-                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/1.mp3')")
+                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema5/s5.mp3')")
               p.fw-bold.text-center
                 span.r--4.fst-italic Clown
         .col-lg-3.mb-4.mb-md-0
           .tarjeta-slyde.tarjeta.p-5(:style="{'background-image': `url(${require('@/assets/curso/temas/tema5/16.png')})`}" style="height: 391px; width: 245px")
             .tarjeta.p-4.w-100(style='background-color: #d8d8f1')
               .d-flex.justify-content-center.mb-2
-                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/1.mp3')")
+                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema5/s6.mp3')")
               p.fw-bold.text-center
                 span.r--4.fst-italic Clean
         .col-lg-3.mb-4.mb-md-0
           .tarjeta-slyde.tarjeta.p-5(:style="{'background-image': `url(${require('@/assets/curso/temas/tema5/17.png')})`}" style="height: 391px; width: 245px")
             .tarjeta.p-4.w-100(style='background-color: #d8d8f1')
               .d-flex.justify-content-center.mb-2
-                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/1.mp3')")
+                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema5/s7.mp3')")
               p.fw-bold.text-center
                 span.r--4.fst-italic Clap
         .col-lg-3.mb-4.mb-md-0
           .tarjeta-slyde.tarjeta.p-5(:style="{'background-image': `url(${require('@/assets/curso/temas/tema5/18.png')})`}" style="height: 391px; width: 245px")
             .tarjeta.p-4.w-100(style='background-color: #d8d8f1')
               .d-flex.justify-content-center.mb-2
-                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/1.mp3')")
+                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema5/s8.mp3')")
               p.fw-bold.text-center
                 span.r--4.fst-italic Click 
       .row.justify-content-center
@@ -173,37 +170,34 @@
           .tarjeta-slyde.tarjeta.p-5(:style="{'background-image': `url(${require('@/assets/curso/temas/tema5/19.png')})`}" style="height: 391px; width: 245px")
             .tarjeta.p-4.w-100(style='background-color: #d8d8f1')
               .d-flex.justify-content-center.mb-2
-                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/1.mp3')")
+                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema5/s9.mp3')")
               p.fw-bold.text-center
                 span.r--4.fst-italic Flower 
         .col-lg-3.mb-4.mb-md-0
           .tarjeta-slyde.tarjeta.p-5(:style="{'background-image': `url(${require('@/assets/curso/temas/tema5/20.png')})`}" style="height: 391px; width: 245px")
             .tarjeta.p-4.w-100(style='background-color: #d8d8f1')
               .d-flex.justify-content-center.mb-2
-                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/1.mp3')")
+                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema5/s10.mp3')")
               p.fw-bold.text-center
                 span.r--4.fst-italic Float 
         .col-lg-3.mb-4.mb-md-0
           .tarjeta-slyde.tarjeta.p-5(:style="{'background-image': `url(${require('@/assets/curso/temas/tema5/21.png')})`}" style="height: 391px; width: 245px")
             .tarjeta.p-4.w-100(style='background-color: #d8d8f1')
               .d-flex.justify-content-center.mb-2
-                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/1.mp3')")
+                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema5/s11.mp3')")
               p.fw-bold.text-center
                 span.r--4.fst-italic Fly 
         .col-lg-3.mb-4.mb-md-0
           .tarjeta-slyde.tarjeta.p-5(:style="{'background-image': `url(${require('@/assets/curso/temas/tema5/22.png')})`}" style="height: 391px; width: 245px")
             .tarjeta.p-4.w-100(style='background-color: #d8d8f1')
               .d-flex.justify-content-center.mb-2
-                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/1.mp3')")
+                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema5/s12.mp3')")
               p.fw-bold.text-center
                 span.r--4.fst-italic Flag 
     .row.justify-content-center.mb-5
       .col-lg-8.mb-lg-0.mb-3(data-aos="fade-right")
         traductor.color-acento-botones.mb-4
-          .row(slot="textoIngles")
-            .col-lg-1
-              Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/1.mp3')").mb-3
-            .col-lg-11
+          div(slot="textoIngles")
               p.fst-italic In English, words interact with each other, modifying each other. We reduce the words when we speak, we contract them, we mix them, we modify them. That is connected speech: it is a spoken language, fluid and continuous, like that of an everyday conversation; and it is called connected speech because the words are linked to each other. 
           div(slot="textoEspanol")
             p
@@ -219,7 +213,7 @@
             div(slot="textoIngles")
               .row.justify-content-center.mb-3
                 .col-lg-1
-                  Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/1.mp3')").mb-3.me-5
+                  Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema5/10.mp3')").mb-3.me-5
                 .col-lg-11
                   .ms-5
                     h4
@@ -265,7 +259,7 @@
           traductor.color-acento-botones.mb-4
             .row(slot="textoIngles")
               .col-lg-1
-                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/1.mp3')").mb-3
+                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema5/11.mp3')").mb-3
               .col-lg-11
                 p.fst-italic When we speak, the way that we sound out the words and sentences is known as pronunciation. Depending on what your native language is, when you speak in English, you will have an accent. Someone’s accent depends on from where in their anglophone country they come and, indeed, which country.  
             div(slot="textoEspanol")
@@ -274,9 +268,9 @@
           traductor.color-acento-botones.mb-4
             .row(slot="textoIngles")
               .col-lg-1
-                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/1.mp3')").mb-3
+                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema5/12.mp3')").mb-3
               .col-lg-11
-                p.fst-italic tress is about which sounds we emphasize in words and sentences. For example, in the word ‘banana’ the stress is on the second syllable; in the word ‘orange’, the stress is on the first syllable. In sentences, we usually stress the most important ‘content’ words. 
+                p.fst-italic Stress is about which sounds we emphasize in words and sentences. For example, in the word ‘banana’ the stress is on the second syllable; in the word ‘orange’, the stress is on the first syllable. In sentences, we usually stress the most important ‘content’ words. 
             div(slot="textoEspanol")
               p
                 span.r--gris
@@ -299,17 +293,21 @@
         .col-lg-6.col-8(data-aos="fade-right").mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema5/33.svg', alt='') 
         .col-lg-6(data-aos="fade-left")
           traductor.color-acento-botones.mb-4
-              .row(slot="textoIngles")
-                .col-lg-1
-                  Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/1.mp3')").mb-3
-                .col-lg-11
-                  p.fst-italic #[span.r--4.fw-bold Rhythm:]  is about how we use a combination of stressed and unstressed words in sentences. 
-                    br
-                    br
-                    |Sentences have strong beats (the stressed words) and weak beats (the unstressed words). 
-                    br
-                    br
-                    |#[span.r--4.fw-bold Intonation:] intonation is the way a speaker’s voice pitches up or down as they speak. We use intonation to help you get our message across. Intonation is the ‘music’ of the language. Let’s see some types of intonation: 
+              div(slot="textoIngles")
+                .row.justify-content-center.mb-5
+                  .col-lg-1
+                    Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema5/13.mp3')").mb-3.me-4
+                  .col-lg-11
+                    p.fst-italic #[span.r--4.fw-bold Rhythm:]  is about how we use a combination of stressed and unstressed words in sentences. 
+                      br
+                      br
+                      |Sentences have strong beats (the stressed words) and weak beats (the unstressed words). 
+                .row.justify-content-center.mb-5
+                  .col-lg-1
+                    Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema5/5.mp3')").mb-3.me-4
+                  .col-lg-11
+                    p.fst-italic 
+                      |#[span.r--4.fw-bold Intonation:] intonation is the way a speaker’s voice pitches up or down as they speak. We use intonation to help you get our message across. Intonation is the ‘music’ of the language. Let’s see some types of intonation: 
                 p
                   span.r--gris
       .row.justify-content-center.mb-5
@@ -317,7 +315,7 @@
           .card-adorno.p-4.tarjeta.h-100
             .bg-white.tarjeta.p-3
               .d-flex.justify-content-center.mb-4
-                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/1.mp3')").mb-3
+                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema5/5.mp3')").mb-3
               p.text-center.fw-bold.fst-italic Falling intonation 
               traductor.color-acento-botones.mb-4
                 div(slot="textoIngles")
@@ -337,7 +335,7 @@
           .card-adorno.p-4.tarjeta.h-100
             .bg-white.tarjeta.p-3
               .d-flex.justify-content-center.mb-4
-                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/1.mp3')").mb-3
+                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema5/5.mp3')").mb-3
               p.text-center.fw-bold.fst-italic Rising Intonation 
               traductor.color-acento-botones.mb-4
                 div(slot="textoIngles")
@@ -356,7 +354,7 @@
           .card-adorno.p-4.tarjeta.h-100
             .bg-white.tarjeta.p-3
               .d-flex.justify-content-center.mb-4
-                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/1.mp3')").mb-3
+                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema5/5.mp3')").mb-3
               p.text-center.fw-bold.fst-italic Fall-rise Intonation
               traductor.color-acento-botones.mb-4
                 div(slot="textoIngles")
@@ -376,7 +374,7 @@
         traductor.color-acento-botones.mb-4
           .row(slot="textoIngles")
             .col-lg-1
-              Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/1.mp3')").mb-3
+              Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema5/5.mp3')").mb-3
             .col-lg-11
               p.fst-italic After having studied the rhythm in the phrase and intonation, we can conclude that the pronunciation of words in English does not only have to do with the pronunciation of letters, words, union of words and transformation of some. Now, we invite you to listen to the BBC Learning English podcast, where you will understand a theme of “English for dating online” and be able to identify the intonation and rhythm of each speaker. 
           div(slot="textoEspanol")
@@ -392,7 +390,7 @@
               div
                 TarjetaAudio.color-acento-contenido.mb-3(
                     texto=""
-                    :audio="require('@/assets/curso/audios/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema5/bbc1.mp3')"
                     style='background-color: #c4d1ff'
                   ) 
                 h5.text-center
@@ -413,7 +411,7 @@
               div
                 TarjetaAudio.color-acento-contenido.mb-3(
                     texto=""
-                    :audio="require('@/assets/curso/audios/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema5/bbc2.mp3')"
                     style='background-color: #c4d1ff'
                   ) 
                 h5.text-center
@@ -430,7 +428,7 @@
               div
                 TarjetaAudio.color-acento-contenido.mb-3(
                     texto=""
-                    :audio="require('@/assets/curso/audios/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema5/bbc3.mp3')"
                     style='background-color: #c4d1ff'
                   ) 
                 h5.text-center
@@ -457,7 +455,7 @@
               div
                 TarjetaAudio.color-acento-contenido.mb-3(
                     texto=""
-                    :audio="require('@/assets/curso/audios/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema5/bbc4.mp3')"
                     style='background-color: #c4d1ff'
                   ) 
                 h5.text-center
@@ -474,7 +472,7 @@
               div
                 TarjetaAudio.color-acento-contenido.mb-3(
                     texto=""
-                    :audio="require('@/assets/curso/audios/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema5/bbc5.mp3')"
                     style='background-color: #c4d1ff'
                   ) 
                 h5.text-center
@@ -485,7 +483,7 @@
               div
                 TarjetaAudio.color-acento-contenido.mb-3(
                     texto=""
-                    :audio="require('@/assets/curso/audios/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema5/bbc6.mp3')"
                     style='background-color: #c4d1ff'
                   ) 
                 h5.text-center
@@ -548,32 +546,30 @@ export default {
       dialogo: [
         {
           personaje: 'Sue',
-          textoIng:
-            'How was your day? Did you work with your family for your family on behalf of your family? ',
-          audio: require('@/assets/curso/audios/1.mp3'),
-        },
-        {
-          personaje: 'Jim',
-          textoIng: 'Ahh... It was ok, my job is hell.',
-          audio: require('@/assets/curso/audios/1.mp3'),
-        },
-        {
-          personaje: 'Sue',
-          textoIng:
-            'Oh, please, do not think like that. Job gives us money, status, life.  ',
-          audio: require('@/assets/curso/audios/1.mp3'),
+          textoIng: 'What is a syllable? ',
+          audio: require('@/assets/curso/audios/tema5/d1.mp3'),
         },
         {
           personaje: 'Jim',
           textoIng:
-            '“I have dealt with a lot of crazy jobs in my whole life.”  ',
-          audio: require('@/assets/curso/audios/1.mp3'),
+            'It is a unit of pronunciation having one vowel sound, with or without surrounding consonants, forming the whole or a part of a word. ',
+          audio: require('@/assets/curso/audios/tema5/d2.mp3'),
         },
         {
           personaje: 'Sue',
+          textoIng: 'What is rhythm?  ',
+          audio: require('@/assets/curso/audios/tema5/d3.mp3'),
+        },
+        {
+          personaje: 'Jim',
           textoIng:
-            'Me too, but this job is as crazy as holding water in our hands.',
-          audio: require('@/assets/curso/audios/1.mp3'),
+            'Rhythm, in phonetics, is the speed and cadence of how you say a sentence.  ',
+          audio: require('@/assets/curso/audios/tema5/d4.mp3'),
+        },
+        {
+          personaje: 'Sue',
+          textoIng: ' see the importance of stress, rhythm, and intonation.',
+          audio: require('@/assets/curso/audios/tema5/d5.mp3'),
         },
       ],
     },
@@ -593,7 +589,7 @@ export default {
           personaje: 'Eliana',
           textoIng: 'What is ***?  ',
           textoEsp: '',
-          audio: require('@/assets/curso/audios/1.mp3'),
+          audio: require('@/assets/curso/audios/tema5/d6.mp3'),
           palabra: 'pronunciation',
         },
         {
@@ -602,14 +598,14 @@ export default {
             'When we speak, the way that we *** out the words and sentences is known as pronunciation. ',
           textoEsp:
             'Yo necesito el libro de *** y las diapositivas Yo necesito el libro de Yo necesito el libro de Yo necesito el libro de .',
-          audio: require('@/assets/curso/audios/1.mp3'),
+          audio: require('@/assets/curso/audios/tema5/d7.mp3'),
           palabra: 'sound',
         },
         {
           personaje: 'Eliana',
           textoIng: 'How can we, as teachers, *** pronunciation?  ',
           textoEsp: 'Yo necesito el libro de biologia y las ***.',
-          audio: require('@/assets/curso/audios/1.mp3'),
+          audio: require('@/assets/curso/audios/tema5/d8.mp3'),
           palabra: 'teach',
         },
         {
@@ -617,7 +613,7 @@ export default {
           textoIng:
             'As an English teacher, I think that exposing students to different kinds of *** is important.  ',
           textoEsp: 'Yo *** el libro de biologia y las diapositivas.',
-          audio: require('@/assets/curso/audios/1.mp3'),
+          audio: require('@/assets/curso/audios/tema5/d9.mp3'),
           palabra: 'accents',
         },
         {
@@ -625,7 +621,7 @@ export default {
           textoIng:
             'I see, that&#39s the clue, I teach for my *** , my society, myself. ',
           textoEsp: 'Yo necesito el libro de biologia y las ***.',
-          audio: require('@/assets/curso/audios/1.mp3'),
+          audio: require('@/assets/curso/audios/tema5/d10.mp3'),
           palabra: 'students',
         },
       ],
