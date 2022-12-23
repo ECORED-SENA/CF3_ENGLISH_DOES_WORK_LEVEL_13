@@ -58,7 +58,16 @@
               br
               |To begin, you should know the definitions of cause, effect (noun), and affect (verb). Let’s see some examples. 
           div(slot="textoEspanol")
-            p
+            p Cuando hablamos de una situación que hace que suceda otra situación, hablamos de causa y efecto. 
+              br
+              br
+              |En inglés, usamos ciertas expresiones, como because, due to, since, y as, para hablar de causas y efectos. 
+              br
+              br
+              |Veamos los significados de “causa”, “efecto” y “afectar”. Aprenda a expresar causa y efecto en inglés. 
+              br
+              br
+              |Para comenzar, debe conocer las definiciones de “causa”, “efecto” (sustantivo) y “afectar” (verbo).
         img(src='@/assets/curso/temas/tema3/3.svg', alt='')
       .col-lg-8(data-aos="fade-left")
         AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta-azul")
@@ -80,7 +89,20 @@
                         br
                         |#[span.r--4.fw-bold The slippery tire caused the car to crash. ]
                     div(slot="textoEspanol")
-                      p
+                      p Causa 
+
+                        br
+                        br
+                        |(sustantivo) una persona o cosa que hace que algo suceda.  
+                        br
+                        br
+                        |La causa del accidente fue una llanta resbalosa. 
+                        br
+                        br
+                        |(verbo) una acción que hace que algo suceda. 
+                        br
+                        br
+                        |La llanta resbalosa hizo que el auto chocara. 
                   TarjetaAudio.color-acento-contenido.mb-3(
                     texto=""
                     :audio="require('@/assets/curso/audios/tema3/1.mp3')"
@@ -99,7 +121,13 @@
                         br
                         |#[span.r--4.fw-bold The snow had an effect on his mood.] 
                     div(slot="textoEspanol")
-                      p
+                      p Efecto 
+                        br
+                        br
+                        |(sustantivo) un cambio que es el resultado de una acción o causa. 
+                        br
+                        br
+                        |La nieve tuvo un efecto en su estado de ánimo. 
                   TarjetaAudio.color-acento-contenido.mb-3(
                     texto=""
                     :audio="require('@/assets/curso/audios/tema3/2.mp3')"
@@ -121,7 +149,16 @@
                         br
                         |#[span.r--4.fw-bold The snow affected his mood.] 
                     div(slot="textoEspanol")
-                      p
+                      p Afectar 
+                        br
+                        br
+                        |Cuando “efecto” se usa como verbo, generalmente se escribe con a = afectar. 
+                        br
+                        br
+                        |(verbo) producir un efecto; provocar un cambio en algo. 
+                        br
+                        br
+                        |La nieve afectó su estado de ánimo. 
                   TarjetaAudio.color-acento-contenido.mb-3(
                     texto=""
                     :audio="require('@/assets/curso/audios/tema3/3.mp3')"
@@ -156,7 +193,10 @@
                 br
                 |#[span.r--4.fw-bold Because of the weather, we could not fly.]
             div(slot="textoEspanol")
-              p
+              p Hablando de causas y efectos en inglés.
+                br
+                br
+                |Para expresar causa y efecto en inglés, usamos ciertas palabras y frases. Dependiendo de la expresión.necesitamos crear la oración. Por ejemplo:Queremos usar la expresión PORQUE necesitamos escribiro pensar en el sustantivo, veamos el ejemplos
       .row.justify-content-center.mb-5
         .col-lg-4.col-8.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema3/9.svg', alt='')
         .col-lg-8(data-aos="fade-left")
@@ -179,7 +219,7 @@
                 br
                 |#[span.r--4.fw-bold Second sentence:] I had to do homework.
             div(slot="textoEspanol")
-              p
+              p No se encuentra traduccion
     p.mb-5(data-aos='fade-right')
       span.r--3.fst-italic Let's see this dialogue to practice the topics seen: 
     Dialogo.color-acento-contenido(:dialogo="dialogo")

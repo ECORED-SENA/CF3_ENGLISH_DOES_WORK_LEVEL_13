@@ -16,7 +16,7 @@
             div(slot="textoIngles")
               p.fst-italic  To help you as a student to interact in English orally and in writing within social contexts and according to the labor criteria established by the common European framework of reference for languages, in this component, we are going to learn about collocations, verbs to report, and linkers to say cause and effect, intonation, stress, rhythm and pronunciation of vowels, consonants, and blends.
             div(slot="textoEspanol")
-              p
+              p Para ayudarle como estudiante a interactuar en inglés de forma oral y escrita dentro de contextos sociales y de acuerdo con los criterios laborales establecidos por el marco común europeo de referencia para las lenguas, en este componente, vamos a aprender sobre colocaciones, verbos para informar, y conectores para decir causa y efecto, entonación, acento, ritmo y pronunciación de vocales, consonantes y combinaciones. 
       figure.mt-5
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/3yqa3rp0qSU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)

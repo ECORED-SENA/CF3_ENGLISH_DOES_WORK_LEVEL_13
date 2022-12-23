@@ -32,7 +32,7 @@
                   br
                   |To change the sound that we are making, we mainly use the muscles of our mouth, tongue and lips to control the shape of our mouth and the flow of air. If we can control the shape of our mouth and the flow of air correctly, then our pronunciation is clearer and other people understand us more easily. 
               div(slot="textoEspanol")
-                p
+                p To change the sound that we are making, we mainly use the muscles of our mouth, tongue and lips to control the shape of our mouth and the flow of air. If we can control the shape of our mouth and the flow of air correctly, then our pronunciation is clearer and other people understand us more easily. 
     .bg-5-1.mn.p-5
       .row.justify-content-center.mb-5
         .col-lg-8.mb-lg-0.mb-3(data-aos="fade-right")
@@ -43,7 +43,7 @@
               .col-lg-11
                 p.fst-italic As well as creating correct vowel and consonant sounds using the muscles of our mouth, tongue and lips, there are other important aspects of pronunciation, including: 
             div(slot="textoEspanol")
-              p
+              p Además de crear sonidos correctos de vocales y consonantes utilizando los músculos de la boca, la lengua y los labios, existen otros aspectos importantes de la pronunciación, que incluyen: 
           .row.justify-content-center.mb-3
             .col-lg-6.mb-lg-0.mb-3
               .d-flex.align-items-center
@@ -201,7 +201,7 @@
               p.fst-italic In English, words interact with each other, modifying each other. We reduce the words when we speak, we contract them, we mix them, we modify them. That is connected speech: it is a spoken language, fluid and continuous, like that of an everyday conversation; and it is called connected speech because the words are linked to each other. 
           div(slot="textoEspanol")
             p
-              span.r--gris
+              span.r--gris En inglés, las palabras interactúan entre sí, modificándose entre ellas mismas. Reducimos las palabras cuando hablamos, las contraemos, las mezclamos, las modificamos. Eso es el habla conectada: es un lenguaje hablado, fluido y continuo, como el de una conversación cotidiana; y se llama discurso conectado porque las palabras están enlazadas entre sí.
       .col-lg-4.col-8(data-aos="fade-left"): img(src='@/assets/curso/temas/tema5/23.svg', alt='')
     Separador
     #t_5_2.titulo-segundo.color-primario(data-aos='fade-right')
@@ -229,14 +229,23 @@
                   p.fst-italic #[span.r--2.fw-bold We can only stress vowels, not consonants.] Here are some more, rather complicated, rules that can help you understand where to put the stress. But do not rely on them too much, because there are many exceptions. It is better to try to "feel" the music of the language and to add the stress naturally. 
             div(slot="textoEspanol")
               p
-                span.r--gris
+                span.r--gris Reglas de acentuación de palabras 
+                  br
+                  br
+                  |Hay dos reglas muy simples sobre la acentuación de las palabras: 
+                  br
+                  br
+                  |Una palabra tiene un solo acento. Una palabra no puede tener dos acentos. Si escucha dos acentos, escucha dos palabras. Dos acentos no pueden ser una sola palabra. Es cierto que puede haber un acento "secundario" en algunas palabras. Pero un acento secundario es mucho más pequeño que el acento principal (primario), y solo se usa en palabras largas. 
+                  br
+                  br
+                  |Solo podemos acentuar las vocales, no las consonantes. Aquí hay algunas reglas, bastante complicadas, que pueden ayudarlo a comprender dónde poner el estrés. Pero no confíe demasiado en ellas, porque hay muchas excepciones. Es mejor tratar de "sentir" la música del idioma y añadir el acento de forma natural. 
     .row.justify-content-center.mb-5
       .col-lg-4.mb-lg-0.mb-3
         traductor.color-acento-botones.mb-5
               div(slot="textoIngles")
                 p.fst-italic There are two very simple rules about word stress: One word has only one stress, and stress vowels. Let’s see some examples: 
               div(slot="textoEspanol")
-                p
+                p Hay dos reglas muy simples sobre la acentuación de las palabras: una palabra tiene solo una acentuación y las vocales acentuadas. Veamos algunos ejemplos:
         img(src='@/assets/curso/temas/tema5/31.svg', alt='')
       .col-lg-8(data-aos="fade-left")
         AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta-azul")
@@ -264,7 +273,7 @@
                 p.fst-italic When we speak, the way that we sound out the words and sentences is known as pronunciation. Depending on what your native language is, when you speak in English, you will have an accent. Someone’s accent depends on from where in their anglophone country they come and, indeed, which country.  
             div(slot="textoEspanol")
               p
-                span.r--gris
+                span.r--gris Cuando hablamos, la forma en que pronunciamos las palabras y las oraciones se conoce como pronunciación. Dependiendo cuál sea su idioma nativo, cuando hable inglés, tendrá un acento. El acento de una persona depende del lugar de su país anglófono de procedencia y, de hecho, de qué país. 
           traductor.color-acento-botones.mb-4
             .row(slot="textoIngles")
               .col-lg-1
@@ -273,7 +282,7 @@
                 p.fst-italic Stress is about which sounds we emphasize in words and sentences. For example, in the word ‘banana’ the stress is on the second syllable; in the word ‘orange’, the stress is on the first syllable. In sentences, we usually stress the most important ‘content’ words. 
             div(slot="textoEspanol")
               p
-                span.r--gris
+                span.r--gris El énfasis es sobre qué sonidos enfatizamos en palabras y oraciones. Por ejemplo, en la palabra 'banana' el acento está en la segunda sílaba; en la palabra 'orange' el acento está en la primera sílaba. En las oraciones, generalmente, enfatizamos las palabras de “contenido” más importantes. 
             
         .col-lg-5.col-8(data-aos="fade-left"): img(src='@/assets/curso/temas/tema5/32.png', alt='')
       .row.justify-content-center.mb-5
@@ -283,7 +292,7 @@
             .contenido.p-2
               p.text-center.text-white Si es de su interés ampliar la información sobre: #[span.r--2.fw-bold.fst-italic Stress and Rhythm in English Pronunciation], puede visitar el siguiente enlace: 
               .d-flex.justify-content-center
-                a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+                a.anexo.mb-4.mb-lg-0(href="https://tfcs.baruch.cuny.edu/nouns-and-verbs/" target="_blank")
                   .anexo__icono
                     img(src="@/assets/template/icono-link.svg")
                   .anexo__texto
@@ -308,8 +317,14 @@
                   .col-lg-11
                     p.fst-italic 
                       |#[span.r--4.fw-bold Intonation:] intonation is the way a speaker’s voice pitches up or down as they speak. We use intonation to help you get our message across. Intonation is the ‘music’ of the language. Let’s see some types of intonation: 
+              div(slot='textoIngles')
                 p
-                  span.r--gris
+                  span.r--gris El ritmo se trata sobre cómo usamos una combinación de palabras acentuadas y no acentuadas en las oraciones. 
+                    br
+                    |Las oraciones tienen tiempos fuertes (las palabras acentuadas) y tiempos débiles (las palabras sin estrés).
+                    br 
+                    br
+                    | La entonación es la forma en que el tono de la voz de un hablante sube o baja mientras habla. Usamos entonación para ayudar a transmitir nuestro mensaje. La entonación es la “música” de la lengua. Vamos a ver algunos tipos de entonación:  
       .row.justify-content-center.mb-5
         .col-lg-4.mb-lg-0.mb-3
           .card-adorno.p-4.tarjeta.h-100
@@ -330,7 +345,7 @@
                     br
                     span.r--4 In addition, we also use falling intonation if we want to emphasize things or if we want to be definite or clear with our words or intentions. 
                   p
-                    span.r--gris
+                    span.r--gris No se encuentra traduccion 
         .col-lg-4.mb-lg-0.mb-3
           .card-adorno.p-4.tarjeta.h-100
             .bg-white.tarjeta.p-3
@@ -349,7 +364,7 @@
                 div(slot="textoEspanol")
                 
                   p
-                    span.r--gris
+                    span.r--gris No se encuentra traduccion 
         .col-lg-4.mb-lg-0.mb-3
           .card-adorno.p-4.tarjeta.h-100
             .bg-white.tarjeta.p-3
@@ -368,7 +383,7 @@
                     span.r--2 Would you like another glass of wine? 
                 div(slot="textoEspanol")
                   p
-                    span.r--gris
+                    span.r--gris No se encuentra traduccion 
     .row.justify-content-center.mb-5
       .col-lg-7(data-aos="fade-right").mb-lg-0.mb-3
         traductor.color-acento-botones.mb-4
@@ -379,7 +394,7 @@
               p.fst-italic After having studied the rhythm in the phrase and intonation, we can conclude that the pronunciation of words in English does not only have to do with the pronunciation of letters, words, union of words and transformation of some. Now, we invite you to listen to the BBC Learning English podcast, where you will understand a theme of “English for dating online” and be able to identify the intonation and rhythm of each speaker. 
           div(slot="textoEspanol")
             p
-              span.r--gris
+              span.r--gris Después de haber estudiado el #[b ritmo en la frase y la entonación], podemos concluir que la pronunciación de palabras en inglés no solo tiene que ver con la pronunciación de letras, palabras, unión de palabras y transformación de algunas. Ahora, le invitamos a escuchar el podcast de la#[em #[b BBC Learning English]], donde se comprenderá una temática del #[b “Inglés para citas en línea] “y podrá identificar la entonación y el ritmo de cada hablante. 
       .col-lg-5.col-8(data-aos="fade-left"): img(src='@/assets/curso/temas/tema5/34.png', alt='')
     .mn.p-5.mb-5(style="background-color: #fff0b5")
       .row.justify-content-center.mb-5
@@ -507,7 +522,7 @@
               p.text-white Si es de su interes,  se le invita a #[em Practice Stress and Rhythm in English Pronunciation] en el siguiente enlace:
             .col-lg-4
               .d-flex.justify-content-center
-                  a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+                  a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=UbcEiFTmkQo" target="_blank")
                     .anexo__icono
                       img(src="@/assets/template/icono-link.svg")
                     .anexo__texto

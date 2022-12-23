@@ -14,7 +14,7 @@
             div(slot="textoIngles")
               p.fst-italic According to Aristotle, the role of rhetoric in speeches is to persuade the listener of the speaker's point of view. This is not to say that the orator will be successful in doing so, but that the point of the speech is to achieve that objective. Different types of rhetoric in speeches have different aims; some speeches are aimed at persuading people to participate in politics, others are used to persuade people to change their mind, and, in extreme cases, speeches can be used to promote violence. When all is said and done, the role of the speech is to get people listening to do what the speaker says.  
             div(slot="textoEspanol")
-              p
+              p Según Aristóteles, el papel de la retórica en los discursos es persuadir al oyente del punto de vista de la persona que habla. Esto no quiere decir que el orador tendrá éxito al hacerlo, sino que el objetivo del discurso es lograr ese objetivo. Los diferentes tipos de retórica en los discursos tienen diferentes objetivos; algunos discursos tienen como objetivo persuadir a las personas para que participen en política, otros se utilizan para persuadir a las personas para que cambien de opinión, y, en casos extremos, los discursos pueden usarse para promover la violencia. Cuando todo está dicho y hecho, el papel del discurso es lograr que las personas que escuchan hagan lo que dice el orador. 
       .row.justify-content-center.mb-5
         .col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
           traductor.color-acento-botones
@@ -22,7 +22,10 @@
               h5 #[span.r--4 #[em Rhetorical devices] ]
               p.fst-italic Rhetoric, in types of writing like narrative writing and poetry, often relies on linguistic tools like figurative language and well-known figures of speech. These tools are known as rhetorical devices. Through a rhetorical device, you can make your argument feel more pressing, make it stick to listeners’ and/or readers’ minds, enable them to empathize with you on your characters, and drive them to think differently about the issue you are presenting.  
             div(slot="textoEspanol")
-              p
+              p Recursos retóricos 
+                br
+                br
+                |La retórica, en tipos de escritura como la escritura narrativa y la poesía, a menudo se basa en herramientas lingüísticas como el lenguaje figurativo y figuras retóricas conocidas. Estas herramientas se conocen como recursos retóricos. A través de un recurso retórico, puede hacer que su argumento se sienta más apremiante, hacer que se quede en la mente de los oyentes y/o lectores, permitirles empatizar con usted o sus personajes y llevarlos a pensar de manera diferente sobre el tema que está presentando.
         .col-lg-5.col-8(data-aos="fade-left"): img(src='@/assets/curso/temas/tema4/2.svg', alt='')
       .row.justify-content-center.mb-5
         .col-lg-10

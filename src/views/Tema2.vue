@@ -23,7 +23,13 @@
                   br
                   |Not all reporting verbs are used the same. Some of those verbs always have to go with a specific verb form, others allow a little more flexibility. Take a look at the following structures to see how different reporting verbs can be used: 
             div(slot="textoEspanol")
-              p
+              p A la hora de expresarnos en el día a día, muchas veces hacemos referencia a cosas que han dicho otras personas. Vamos a centrarnos en los verbos que usamos para introducir las palabras dichas por otros: los reporting verbs.  
+                br
+                br
+                |#[b Estructuras gramaticales para usar #[em reporting verbs]] 
+                br
+                br
+                |No todos los reporting verbs se utilizan igual. Algunos de estos verbos tienen que ir siempre con una forma verbal concreta, otros permiten un poco más de flexibilidad. Observe las siguientes estructuras para ver de qué manera se pueden utilizar los distintos #[em reporting verbs.] 
     Separador 
     #t_2_1.titulo-segundo.color-primario(data-aos='fade-right')
       h2 2.1  #[em Verb + infinitive] 
@@ -33,7 +39,7 @@
             div(slot="textoIngles")
               p.fst-italic  When reporting expressions in which there are two verbs, it is mandatory to learn the requirements the first verb has; in the following sentence, the verb to agree requires a second verb, next to it, in its infinitive form, so observe how it must be written in the following examples: 
             div(slot="textoEspanol")
-              p
+              p Al reportar expresiones en las que hay dos verbos, es obligatorio aprender los requisitos que tiene el primer verbo; en la siguiente oración, el verbo a concordar requiere un segundo verbo a su lado, en su forma de infinitivo, así que observe cómo debe ser escrito en los siguientes ejemplos
         img(src='@/assets/curso/temas/tema2/2.svg', alt='')
       .col-lg-8(data-aos="fade-left")
         .tarjeta.p-5(style="background-color: #A6BBFF ")
@@ -81,7 +87,7 @@
           div(slot="textoIngles")
             p.fst-italic There are sentences in which it is necessary to use two verbs, the first and the one that is close to the subject requires first a person and then the particle “to”, and a second verb. Below is a list of verbs that take the object + the infinitive with “to”. 
           div(slot="textoEspanol")
-            p
+            p Existen oraciones en las cuales es necesario usar dos verbos, el primero y aquel que se encuentra cerca del sujeto requiere primero de una persona y luego de la partícula #[em “to”], y un segundo verbo. Se presenta una lista de verbos que llevan el objeto + el infinitivo con #[em “to”]. 
       .col-lg-5(data-aos="fade-left")
         div(style="background-color: #ffdfe0 ").tarjeta-adorno
           img(src='@/assets/curso/temas/tema2/7.svg', alt='' style="width: 221px")
@@ -185,7 +191,7 @@
             .contenido.p-2
               p.text-center.text-white Let´s see the next video in which the previous topic is explained in detail Prepositions + verb + ing, de la UNAM ( Universidad Abierta y Educación a Distancia). Ambiente virtual de idiomas.
               .d-flex.justify-content-center
-                a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+                a.anexo.mb-4.mb-lg-0(href="https://avi.cuaieed.unam.mx/practica-ingles.html" target="_blank")
                   .anexo__icono
                     img(src="@/assets/template/icono-link.svg")
                   .anexo__texto
@@ -202,7 +208,7 @@
                 .col-lg-11
                   p.fst-italic In the sentence “She agrees that it is hard work,” the verb is “agrees,” and the indicative clause that follows is “it is hard work.” From the point of view of grammar, the conjunction  “that” always introduces the clause after verbs that follow this pattern, but in actual speaking and writing, the word “that” is often omitted by English speakers, especially with the more common verbs such as “say,” “think,” and “know.” The pattern described here is one of the most common verb patterns in English. It is most typically used with verbs of stating, thinking, and believing. Let’s see an example.
               div(slot="textoEspanol")
-                p
+                p En la oración " #[em She agrees that it is hard work"], el verbo es #[em "agrees"] y la cláusula indicativa que sigue es " #[em it is hard work ]". Desde el punto de vista de la gramática, la conjunción "that" siempre introduce la cláusula después de los verbos que siguen este patrón, pero al hablar y escribir, los hablantes de inglés a menudo omiten la palabra #[em "that"], especialmente con los verbos más comunes, como #[em "say"], #[em "think"] y #[em "know"]. El patrón descrito aquí es uno de los patrones verbales más comunes en inglés. Se usa más típicamente con verbos de afirmar, pensar y creer. Veamos un ejemplo. 
           .tarjeta.bg-white.p-5
             .row.justify-content-center.align-items-center
               .col-lg-4.mb-lg-0.mb-3

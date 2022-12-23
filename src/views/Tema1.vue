@@ -14,9 +14,9 @@
             .col-lg-1
               Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema1/1.mp3')")
             .col-lg-11
-              p.fst-italic  To help you as a student to interact in English orally and in writing within social contexts and according to the labor criteria established by the common European framework of reference for languages, in this component, we are going to learn about collocations, verbs to report, and linkers to say cause and effect, intonation, stress, rhythm and pronunciation of vowels, consonants, and blends.
+              p.fst-italic  Collocations in English serve to understand the cultural context of English-speaking countries, sometimes they are related to using similar words and/or synonyms to say something. The foregoing does not imply that the listener does not understand, maybe it just sounds funny. Here we have a couple of examples:
           div(slot="textoEspanol")
-            p
+            p Las colocaciones en inglés sirven para entender el contexto cultural de los países de habla inglesa, en ocasiones están relacionadas con usar palabras similares y/o sinónimos para decir algo. Lo anterior no implica que quien escucha no comprenda, de pronto solo le suena divertido. Aquí encontrará un par de ejemplos: 
     .mn.bg-1-1.p-5
       .row.justify-content-center.align-items-end.mb-5
         .col-lg-8(data-aos="fade-right").mb-lg-0.mb-3
@@ -59,7 +59,7 @@
             div(slot="textoIngles")
               p.fst-italic  An interesting aspect about collocations in English is that their use does not respond to grammatical rules. They are learned among the English-speaking population through everyday conversations and the sociocultural context. So technically, there are no rules for how to use them. Let’s see some examples: 
             div(slot="textoEspanol")
-              p
+              p Un aspecto interesante sobre las colocaciones en inglés es que su uso no responde a reglas gramaticales. Son aprendidas entre la población angloparlante a través de las conversaciones cotidianas y el contexto sociocultural. Así que, técnicamente, no existen reglas para saber cómo usarlas.  Veamos algunos ejemplos: 
           img(src='@/assets/curso/temas/tema1/3.png', alt='')
         .col-lg-5(data-aos="fade-left")
           .tarjeta.bg-white.p-4
@@ -98,7 +98,7 @@
           div(slot="textoIngles")
             p.fst-italic  A collocation is two or more words that often go together. These combinations just sound "right" to native English speakers, who use them all the time. Look at these examples: 
           div(slot="textoEspanol")
-            p
+            p Una colocación es dos o más palabras que a menudo van juntas. Estas combinaciones simplemente suenan "correctas" para los hablantes nativos de inglés, que las usan todo el tiempo. Miremos estos ejemplos: 
       .row.justify-content-center.mb-5
         .col-lg-4.col-8(data-aos="fade-right").mb-lg-0.mb-3
           img(src='@/assets/curso/temas/tema1/4.png', alt='')
@@ -197,7 +197,7 @@
             div(slot="textoIngles")
               p.fst-italic  English collocations are defined as a combination of words that always go together in language and, depending on the order in which they are placed, have a different meaning than they would have been separated. If the importance of English collocations is still not clear to us, let's see how they work by putting them within a context. For example, in a conversation between two students. We invite you to practice with the following dialogue. 
             div(slot="textoEspanol")
-              p
+              p Las colocaciones en inglés se definen como una combinación de palabras que siempre van juntas en el lenguaje y, dependiendo del orden en que están ubicadas, tienen un significado diferente al que tendrían estando separadas. Si aún no nos queda clara la importancia de las colocaciones en inglés, veamos cómo funcionan poniéndolas dentro de un contexto. Por ejemplo, en una conversación entre dos estudiantes. Lo invitamos a practicar con el siguiente diálogo. 
       .col-lg-4.col-8(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema1/14.svg', alt='')
     Dialogo.color-acento-contenido(:dialogo="dialogo")
