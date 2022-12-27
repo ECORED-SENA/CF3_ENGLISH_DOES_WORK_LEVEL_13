@@ -170,7 +170,7 @@
           .tarjeta.bg-3-2.p-4.mb-5
             p #[span.r--3.fst-italic Below is the following dialogue between two characters who talk about their routine using cause and effect expressions.]  #[span.r--gris / A continuación, se presenta el siguiente diálogo entre dos personajes que hablan sobre su rutina usando expresiones de causa y efecto. ]
             .row.justify-content-center.mb-5
-              .col-lg-8
+              .col-lg-10
                 img(src='@/assets/curso/temas/tema3/7.svg', alt='')
                 .bg-dialog.pt-0
                   .bg-white.p-4(style='border-radius: 0px 0px 20px 20px')
@@ -365,6 +365,6 @@ export default {
 .bg-3-2
   background-image: url(../assets/curso/temas/tema3/bg-3-2.svg)
   background-repeat: no-repeat
-  background-size: 100%
+  background-size: cover
   background-position: top
 </style>
