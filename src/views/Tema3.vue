@@ -43,7 +43,7 @@
                 br
                 |reason why
                 br
-                |thus..
+                |thus...
                 br
                 |hence
     .row.justify-content-center.mb-5
@@ -71,60 +71,55 @@
         img(src='@/assets/curso/temas/tema3/3.svg', alt='')
       .col-lg-8(data-aos="fade-left")
         AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta-azul")
-          div(titulo="<em>Cause</em>")
+          div(titulo="<em>Cause</em> / Causa")
             .tarjeta.bg-white.p-5
               .row.justify-content-center
                 .col-lg-4.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema3/4.png', alt='')
                 .col-lg-8
                   traductor.color-acento-botones.mb-4
                     div(slot="textoIngles")
-                      p.fst-italic #[span.r--2 (noun)] a person or thing that makes something happen. 
+                      p.fst-italic #[span.r--2 (Noun)] a person or thing that makes something happen. 
                         br
                         br
                         |#[span.r--4.fw-bold The cause of the accident was a slippery tire. ] 
                         br
                         br
-                        |#[span.r--2 (verb)] an action that makes something happen. 
+                        |#[span.r--2 (Verb)] an action that makes something happen. 
                         br
                         br
                         |#[span.r--4.fw-bold The slippery tire caused the car to crash. ]
                     div(slot="textoEspanol")
-                      p Causa 
-
-                        br
-                        br
-                        |(sustantivo) una persona o cosa que hace que algo suceda.  
+                      p 
+                        |(Sustantivo) una persona o cosa que hace que algo suceda.  
                         br
                         br
                         |La causa del accidente fue una llanta resbalosa. 
                         br
                         br
-                        |(verbo) una acción que hace que algo suceda. 
+                        |(Verbo) una acción que hace que algo suceda. 
                         br
                         br
                         |La llanta resbalosa hizo que el auto chocara. 
                   TarjetaAudio.color-acento-contenido.mb-3(
                     texto=""
-                    :audio="require('@/assets/curso/audios/tema3/1.mp3')"
+                    :audio="require('@/assets/curso/audios/c/H28.mp3')"
                     style='background-color: #c4d1ff'
                   )
               
-          div(titulo="<em>Effect </em>")
+          div(titulo="<em>Effect </em> / Efecto")
             .tarjeta.bg-white.p-5
               .row.justify-content-center
                 .col-lg-4.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema3/5.png', alt='')
                 .col-lg-8
                   traductor.color-acento-botones.mb-4
                     div(slot="textoIngles")
-                      p.fst-italic #[span.r--2 (noun)] a change that is a result of an action or cause. 
+                      p.fst-italic #[span.r--2 (Noun)] a change that is a result of an action or cause. 
                         br
                         br
                         |#[span.r--4.fw-bold The snow had an effect on his mood.] 
                     div(slot="textoEspanol")
-                      p Efecto 
-                        br
-                        br
-                        |(sustantivo) un cambio que es el resultado de una acción o causa. 
+                      p 
+                        |Sustantivo) un cambio que es el resultado de una acción o causa. 
                         br
                         br
                         |La nieve tuvo un efecto en su estado de ánimo. 
@@ -134,7 +129,7 @@
                     style='background-color: #c4d1ff'
                   )
               
-          div(titulo="<em>Affect </em>")
+          div(titulo="<em>Affect </em> / Afectar")
             .tarjeta.bg-white.p-5
               .row.justify-content-center
                 .col-lg-4.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema3/6.png', alt='')
@@ -144,18 +139,16 @@
                       p.fst-italic When effect is used as a verb, it is usually spelled with an #[span.r--2 a = affect.]  
                         br
                         br
-                        |#[span.r--2 (verb)] to produce an effect; to cause a change in something.  
+                        |#[span.r--2 (Verb)] to produce an effect; to cause a change in something.  
                         br
                         br
                         |#[span.r--4.fw-bold The snow affected his mood.] 
                     div(slot="textoEspanol")
-                      p Afectar 
-                        br
-                        br
+                      p 
                         |Cuando “efecto” se usa como verbo, generalmente se escribe con a = afectar. 
                         br
                         br
-                        |(verbo) producir un efecto; provocar un cambio en algo. 
+                        |(Verbo) producir un efecto; provocar un cambio en algo. 
                         br
                         br
                         |La nieve afectó su estado de ánimo. 
@@ -180,15 +173,15 @@
         .col-lg-8(data-aos="fade-left")
           TarjetaAudio.color-acento-contenido.mb-3(
               texto=""
-              :audio="require('@/assets/curso/audios/tema3/4.mp3')"
+              :audio="require('@/assets/curso/audios/c/H34.mp3')"
               style='background-color: #c4d1ff'
             )
           traductor.color-acento-botones.mb-4
             div(slot="textoIngles")
-              p.fst-italic Talking about causes and Effects in English
+              p.fst-italic Talking about causes and effects in English
                 br
                 br
-                |To express cause and effect in English, we use certain words or phrases: depending on the expression, we need to créate the sentence. For Example: We want to use expression BECAUSE OF, so we need to write down or think about the noun. Let´s see the Example:
+                |To express cause and effect in English, we use certain words or phrases: depending on the expression, we need to create the sentence. For Example: We want to use the expression BECAUSE OF, so we need to write down or think about the noun. Let's see the Example:
                 br
                 br
                 |#[span.r--4.fw-bold Because of the weather, we could not fly.]
@@ -202,7 +195,7 @@
         .col-lg-8(data-aos="fade-left")
           TarjetaAudio.color-acento-contenido.mb-3(
               texto=""
-              :audio="require('@/assets/curso/audios/tema3/5.mp3')"
+              :audio="require('@/assets/curso/audios/c/h37.mp3')"
               style='background-color: #c4d1ff'
             )
           traductor.color-acento-botones.mb-4
@@ -211,7 +204,7 @@
 
                 br
                 br
-                |#[span.r--4.fw-bold I could not go to the party because i had to do homework.]
+                |#[span.r--4.fw-bold I could not go to the party because I had to do homework.]
 
                 br
                 br
@@ -257,7 +250,7 @@ export default {
         {
           personaje: 'Sue',
           textoIng: 'How was your day today? ',
-          audio: require('@/assets/curso/audios/tema3/lucas1.mp3'),
+          audio: require('@/assets/curso/audios/c/H31_1.mp3'),
         },
         {
           personaje: 'Jim',
@@ -268,7 +261,7 @@ export default {
         {
           personaje: 'Sue',
           textoIng: 'Oh, really? So, did you have any lunch? ',
-          audio: require('@/assets/curso/audios/tema3/lucas2.mp3'),
+          audio: require('@/assets/curso/audios/c/H31_2.mp3'),
         },
         {
           personaje: 'Jim',
@@ -315,7 +308,7 @@ export default {
             '*** John&#39s laziness, he did not pass the English test. ',
           textoEsp:
             'Yo necesito el libro de *** y las diapositivas Yo necesito el libro de Yo necesito el libro de Yo necesito el libro de .',
-          audio: require('@/assets/curso/audios/tema3/tory1.mp3'),
+          audio: require('@/assets/curso/audios/c/h39_1.mp3'),
           palabra: 'Due to',
         },
         {
@@ -330,7 +323,7 @@ export default {
           textoIng:
             'But I guess he can have a second chance, *** will you talk to his teacher? ',
           textoEsp: 'Yo *** el libro de biologia y las diapositivas.',
-          audio: require('@/assets/curso/audios/tema3/tory2.mp3'),
+          audio: require('@/assets/curso/audios/c/h39_2.mp3'),
           palabra: 'so (2)',
         },
         {

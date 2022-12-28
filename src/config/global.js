@@ -1,7 +1,7 @@
 export default {
   global: {
     componenteFormativo:
-      '<span class= r--4> <em>Using our speech to convince others.</em></span> <br> Usando nuestro discurso para convencer a otros.',
+      '<span class= r--4> <em>Using our speech to convince others</em></span> <br> Usando nuestro discurso para convencer a otros',
 
     descripcionCurso:
       'Este componente tendrá como objetivo ayudarle como estudiante a interactuar en inglés de forma oral y escrita dentro de contextos sociales y de acuerdo con los criterios laborales establecidos por el marco común europeo de referencia para las lenguas.',
@@ -157,38 +157,39 @@ export default {
   },
   complementario: [
     {
-      tema: 'Collocations (Colocaciones) ',
+      tema: '<em>Collocations</em> (Colocaciones) ',
       referencia:
-        'Mel’čuk, I. (1998). Collocations and lexical functions. En A. Cowie, Phraseology. Theory, analysis, and applications, p. 23-53.',
+        'Mel’čuk, I. (1998). <em> Collocations and lexical functions</em>. En A. Cowie, Phraseology. Theory, analysis, and applications, p. 23-53.',
       tipo: 'Artículo ',
       link: 'http://olst.ling.umontreal.ca/pdf/CowieLFs.pdf ',
     },
     {
-      tema: 'Reporting in a correct way (Informando de manera correcta) ',
+      tema:
+        '<em>Reporting in a correct way</em> (Informando de manera correcta) ',
       referencia:
-        'Thompson, G. y Yiyun, Y. (1991). Evaluation in the reporting verbs used in academic papers. Applied linguistics, 12(4), p. 365-382.',
+        'Thompson, G. y Yiyun, Y. (1991). <em> Evaluation in the reporting verbs used in academic papers. Applied linguistics</em>, 12(4), p. 365-382.',
       tipo: 'Artículo ',
       link:
         'https://academic.oup.com/applij/article-abstract/12/4/365/242313?login=false ',
     },
     {
-      tema: 'Expressing cause and effect (Expresando causa y efecto) ',
+      tema: '<em>Expressing cause and effect</em> (Expresando causa y efecto) ',
       referencia:
-        'Xuelan, F. y Kennedy, G. (1992). Expressing causation in written English. RELC Journal, 23(1), p. 62-80.',
+        'Xuelan, F. y Kennedy, G. (1992). <em> Expressing causation in written English.</em> RELC Journal, 23(1), p. 62-80.',
       tipo: 'Artículo ',
       link: 'https://journals.sagepub.com/doi/abs/10.1177/003368829202300105 ',
     },
     {
       tema:
-        'Rhetorical functions of the speech (Funciones retóricas del discurso) ',
+        '<em> Rhetorical functions of the speech</em> (Funciones retóricas del discurso) ',
       referencia:
-        'Frank, J. (1990). You call that a rhetorical question?: Forms and functions of rhetorical questions in conversation. Journal of Pragmatics, 14(5), p. 723-738.',
+        'Frank, J. (1990). <em> You call that a rhetorical question?: Forms and functions of rhetorical questions in conversation</em>. Journal of Pragmatics, 14(5), p. 723-738.',
       tipo: 'Libro',
       link:
         'https://www.sciencedirect.com/science/article/abs/pii/037821669090003V ',
     },
     {
-      tema: 'Pronunciation (Pronunciación) ',
+      tema: '<em> Pronunciation</em> (Pronunciación) ',
       referencia:
         'Moulton, W. (1962). Toward a classification of pronunciation errors. The Modern Language Journal, 46(3), p. 101-109.',
       tipo: 'Artículo ',

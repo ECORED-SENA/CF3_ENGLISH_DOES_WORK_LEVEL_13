@@ -12,7 +12,7 @@
         traductor.color-acento-botones
           .row.justify-content-center(slot="textoIngles")
             .col-lg-1
-              Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema1/1.mp3')")
+              Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/c/H4.mp3')")
             .col-lg-11
               p.fst-italic  Collocations in English serve to understand the cultural context of English-speaking countries, sometimes they are related to using similar words and/or synonyms to say something. The foregoing does not imply that the listener does not understand, maybe it just sounds funny. Here we have a couple of examples:
           div(slot="textoEspanol")
@@ -27,7 +27,7 @@
                   p.fw-bold
                     span.r--4.fst-italic What we want to say
                     br
-                    span que queremos #[br] decir
+                    span Lo que queremos #[br] decir
                 .tarjeta.bg-white-p.mb-4.p-3
                   p.text-center.mb-0 Hacer un viaje. 
                 .tarjeta.bg-white-p.mb-4.p-3
@@ -47,7 +47,7 @@
                   p.fw-bold 
                     span.r--4.fst-italic The right way of saying it
                     br
-                    span Cómo debe decirse usando collocations
+                    span Cómo debe decirse usando #[em collocations]
                 .tarjeta.bg-white-p.mb-4.p-3
                   p.text-center.fst-italic.mb-0 Take a trip. 
                 .tarjeta.bg-white-p.mb-4.p-3
@@ -91,6 +91,10 @@
                 .col-lg-9
                   p.fw-bold.fst-italic.mb-0 
                     span.r--4 a photo, a break, a chance, a taxi, your time, notes, a risk, a vote.
+            .d-flex.justify-content-center
+              Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/c/H7.mp3')")
+
+
     .mn.bg-1-2.p-5
       h4 
         span.r--4.fst-italic The most common collocations 
@@ -110,7 +114,7 @@
                   .tarjeta-slyde.tarjeta.p-5(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/5.jpg')})`}" style="height: 500px; width: 300px")
                     .tarjeta.bg-white.p-4.w-100
                       .d-flex.justify-content-center
-                        Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema1/1.mp3')")
+                        Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/c/H8_1.mp3')")
                       p.fw-bold.text-center
                         span.r--4.fst-italic Do someone a favor. 
                         br
@@ -119,7 +123,7 @@
                   .tarjeta-slyde.tarjeta.p-5(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/6.jpg')})`}" style="height: 500px; width: 300px")
                     .tarjeta.bg-white.p-4.w-100
                       .d-flex.justify-content-center
-                        Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema1/2.mp3')")
+                        Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/c/H8_2.mp3')")
                       p.fw-bold.text-center
                         span.r--4.fst-italic Do your hair. 
                         br
@@ -129,7 +133,7 @@
                   .tarjeta-slyde.tarjeta.p-5(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/7.jpg')})`}" style="height: 500px; width: 300px")
                     .tarjeta.bg-white.p-4.w-100
                       .d-flex.justify-content-center
-                        Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema1/3.mp3')")
+                        Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/c/H8_3.mp3')")
                       p.fw-bold.text-center
                         span.r--4.fst-italic Make sense.
                         br
@@ -138,7 +142,7 @@
                   .tarjeta-slyde.tarjeta.p-5(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/8.jpg')})`}" style="height: 500px; width: 300px")
                     .tarjeta.bg-white.p-4.w-100
                       .d-flex.justify-content-center
-                        Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema1/4.mp3')")
+                        Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/c/H8_4.mp3')")
                       p.fw-bold.text-center
                         span.r--4.fst-italic Make money. 
                         br
@@ -148,7 +152,7 @@
                   .tarjeta-slyde.tarjeta.p-5(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/9.jpg')})`}" style="height: 500px; width: 300px")
                     .tarjeta.bg-white.p-4.w-100
                       .d-flex.justify-content-center
-                        Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema1/5.mp3')")
+                        Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/c/H8_5.mp3')")
                       p.fw-bold.text-center
                         span.r--4.fst-italic Have a party.
                         br
@@ -157,7 +161,7 @@
                   .tarjeta-slyde.tarjeta.p-5(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/10.jpg')})`}" style="height: 500px; width: 300px")
                     .tarjeta.bg-white.p-4.w-100
                       .d-flex.justify-content-center
-                        Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema1/6.mp3')")
+                        Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/c/H8_6.mp3')")
                       p.fw-bold.text-center
                         span.r--4.fst-italic Have a shower. 
                         br
@@ -167,7 +171,7 @@
                   .tarjeta-slyde.tarjeta.p-5(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/11.jpg')})`}" style="height: 500px; width: 300px")
                     .tarjeta.bg-white.p-4.w-100
                       .d-flex.justify-content-center
-                        Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema1/7.mp3')")
+                        Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/c/H8_7.mp3')")
                       p.fw-bold.text-center
                         span.r--4.fst-italic Take a photo. 
                         br
@@ -176,7 +180,7 @@
                   .tarjeta-slyde.tarjeta.p-5(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/12.jpg')})`}" style="height: 500px; width: 300px")
                     .tarjeta.bg-white.p-4.w-100
                       .d-flex.justify-content-center
-                        Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema1/8.mp3')")
+                        Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/c/H8_8.mp3')")
                       p.fw-bold.text-center
                         span.r--4.fst-italic Take a taxi.
                         br
@@ -238,7 +242,7 @@ export default {
         {
           personaje: 'Jim',
           textoIng: 'Well, I had a shower around 6, then I had breakfast.',
-          audio: require('@/assets/curso/audios/tema1/sophia1.mp3'),
+          audio: require('@/assets/curso/audios/c/H9_1.mp3'),
         },
         {
           personaje: 'Sue',
@@ -249,7 +253,7 @@ export default {
         {
           personaje: 'Jim',
           textoIng: 'Did you do his hair? ',
-          audio: require('@/assets/curso/audios/tema1/sophia2.mp3'),
+          audio: require('@/assets/curso/audios/c/H16_1.mp3'),
         },
         {
           personaje: 'Sue',
@@ -272,7 +276,7 @@ export default {
       dialogo: [
         {
           personaje: 'Eliana',
-          textoIng: 'Peter told me you *** yesterday, didn´t  you? ',
+          textoIng: 'Peter told me you *** yesterday, didn&#39t  you? ',
           textoEsp: '',
           audio: require('@/assets/curso/audios/tema1/eliana1.mp3'),
           palabra: 'had fun',
@@ -280,10 +284,10 @@ export default {
         {
           personaje: 'Tory',
           textoIng:
-            'Yes, I did. I ***, I did my mom a favor, and I had a word with my ex-girlfriend. ',
+            'Yes, I did. I ***, I did my mom a favor, and I had a word with my manager. ',
           textoEsp:
             'Yo necesito el libro de *** y las diapositivas Yo necesito el libro de Yo necesito el libro de Yo necesito el libro de .',
-          audio: require('@/assets/curso/audios/tema1/tory1.mp3'),
+          audio: require('@/assets/curso/audios/c/H16_1.mp3'),
           palabra: 'did homework',
         },
         {
@@ -297,7 +301,7 @@ export default {
           personaje: 'Tory',
           textoIng: 'Yes, she did. She ***. ',
           textoEsp: 'Yo *** el libro de biologia y las diapositivas.',
-          audio: require('@/assets/curso/audios/tema1/tory2.mp3'),
+          audio: require('@/assets/curso/audios/c/H16_2.mp3'),
           palabra: 'made a decision',
         },
         {

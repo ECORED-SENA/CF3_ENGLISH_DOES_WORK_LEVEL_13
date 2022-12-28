@@ -15,13 +15,13 @@
                 Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema2/1.mp3')")
 
               .col-lg-11
-                p.fst-italic When expressing ourselves on a day-to-day basis, we often refer to things that other people have said. We are going to focus on the verbs that we use to introduce the words said by others: informative verbs. 
+                p.fst-italic When expressing ourselves on a day-to-day basis, we often #[b refer to things that other people have said.] We are going to focus on the verbs that we use to introduce the words said by others: informative verbs. 
                   br
                   br
                   span.r--4.fw-bold Grammatical structures to use reporting verbs 
                   br
                   br
-                  |Not all reporting verbs are used the same. Some of those verbs always have to go with a specific verb form, others allow a little more flexibility. Take a look at the following structures to see how different reporting verbs can be used: 
+                  |Not all reporting verbs are used the same. Some of those verbs always have to go with a specific verb form, others allow a little more flexibility. #[b Take a look at the following structures] to see how different reporting verbs can be used: 
             div(slot="textoEspanol")
               p A la hora de expresarnos en el día a día, muchas veces hacemos referencia a cosas que han dicho otras personas. Vamos a centrarnos en los verbos que usamos para introducir las palabras dichas por otros: los reporting verbs.  
                 br
@@ -51,16 +51,16 @@
                     img(src='@/assets/curso/temas/tema2/3.png' alt='AvatarTop')
                     .tarjeta.w-100(style="background-color: #DDDEFF ")
                       .d-flex.justify-content-center.mt-5
-                          Audio.color-acento-botones.mx-3.mb-3(:audio="require('@/assets/curso/audios/tema2/2.mp3')")
-                      p.fw-bold.text-center.mb-4 They agreed to meet on #[br] Sunday. 
+                          Audio.color-acento-botones.mx-3.mb-3(:audio="require('@/assets/curso/audios/c/H19_1.mp3')")
+                      p.fw-bold.text-center.mb-4.fst-italic They agreed to meet on #[br] Sunday. 
               .col-lg-5
                 .tarjeta.bg-white.p-3
                   .tarjeta-avatar
                     img(src='@/assets/curso/temas/tema2/4.png' alt='AvatarTop')
                     .tarjeta.w-100(style="background-color: #DDDEFF ")
                       .d-flex.justify-content-center.mt-5
-                          Audio.color-acento-botones.mx-3.mb-3(:audio="require('@/assets/curso/audios/tema2/3.mp3')")
-                      p.fw-bold.text-center.mb-4 I hope to see you next #[br] Monday. 
+                          Audio.color-acento-botones.mx-3.mb-3(:audio="require('@/assets/curso/audios/c/H19_2.mp3')")
+                      p.fw-bold.text-center.mb-4.fst-italic I hope to see you next #[br] Monday. 
             .row.justify-content-center.mb-5
               .col-lg-5
                 .tarjeta.bg-white.p-3
@@ -68,19 +68,19 @@
                     img(src='@/assets/curso/temas/tema2/5.png' alt='AvatarTop')
                     .tarjeta.w-100(style="background-color: #DDDEFF ")
                       .d-flex.justify-content-center.mt-5
-                          Audio.color-acento-botones.mx-3.mb-3(:audio="require('@/assets/curso/audios/tema2/4.mp3')")
-                      p.fw-bold.text-center.mb-4 He claimed to be an #[br] engineer. 
+                          Audio.color-acento-botones.mx-3.mb-3(:audio="require('@/assets/curso/audios/c/H19_3.mp3')")
+                      p.fw-bold.text-center.mb-4.fst-italic He claimed to be an #[br] engineer. 
               .col-lg-5
                 .tarjeta.bg-white.p-3
                   .tarjeta-avatar
                     img(src='@/assets/curso/temas/tema2/6.png' alt='AvatarTop')
                     .tarjeta.w-100(style="background-color: #DDDEFF ")
                       .d-flex.justify-content-center.mt-5
-                          Audio.color-acento-botones.mx-3.mb-3(:audio="require('@/assets/curso/audios/tema2/5.mp3')")
-                      p.fw-bold.text-center.mb-4 I managed to reach the top #[br] of the mountain.
+                          Audio.color-acento-botones.mx-3.mb-3(:audio="require('@/assets/curso/audios/c/H19_4.mp3')")
+                      p.fw-bold.text-center.mb-4.fst-italic I managed to reach the top #[br] of the mountain.
     Separador
     #t_2_2.titulo-segundo.color-primario(data-aos='fade-right')
-      h2 2.2 Verb + person + infinitive
+      h2 2.2 #[em Verb + person + infinitive]
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
         traductor.color-acento-botones
@@ -127,7 +127,7 @@
                     traductor.color-acento-botones
                       div(slot="textoIngles")
                         .d-flex.justify-content-center
-                          Audio.color-acento-botones.mx-3.mb-3(:audio="require('@/assets/curso/audios/tema2/6.mp3')")
+                          Audio.color-acento-botones.mx-3.mb-3(:audio="require('@/assets/curso/audios/c/H21_1.mp3')")
 
 
                         p.fst-italic.text-center I insisted on having seconds - it was delicious! 
@@ -139,7 +139,7 @@
                     traductor.color-acento-botones
                       div(slot="textoIngles")
                         .d-flex.justify-content-center
-                          Audio.color-acento-botones.mx-3.mb-3(:audio="require('@/assets/curso/audios/tema2/7.mp3')")
+                          Audio.color-acento-botones.mx-3.mb-3(:audio="require('@/assets/curso/audios/c/H21_2.mp3')")
 
 
                         p.fst-italic.text-center I look forward to meeting him.  
@@ -152,7 +152,7 @@
                     traductor.color-acento-botones
                       div(slot="textoIngles")
                         .d-flex.justify-content-center
-                          Audio.color-acento-botones.mx-3.mb-3(:audio="require('@/assets/curso/audios/tema2/8.mp3')")
+                          Audio.color-acento-botones.mx-3.mb-3(:audio="require('@/assets/curso/audios/c/H21_3.mp3')")
 
 
                         p.fst-italic.text-center Do you feel like going out tomorrow?
@@ -164,7 +164,7 @@
                     traductor.color-acento-botones
                       div(slot="textoIngles")
                         .d-flex.justify-content-center
-                          Audio.color-acento-botones.mx-3.mb-3(:audio="require('@/assets/curso/audios/tema2/9.mp3')")
+                          Audio.color-acento-botones.mx-3.mb-3(:audio="require('@/assets/curso/audios/c/H21_4.mp3')")
 
 
                         p.fst-italic.text-center  They have decided against moving to the United States.
@@ -177,7 +177,7 @@
                     traductor.color-acento-botones
                       div(slot="textoIngles")
                         .d-flex.justify-content-center
-                          Audio.color-acento-botones.mx-3.mb-3(:audio="require('@/assets/curso/audios/tema2/10.mp3')")
+                          Audio.color-acento-botones.mx-3.mb-3(:audio="require('@/assets/curso/audios/c/H21_5.mp3')")
 
 
                         p.fst-italic.text-center He doesn't approve of drinking wine.
@@ -208,7 +208,7 @@
                 .col-lg-11
                   p.fst-italic In the sentence “She agrees that it is hard work,” the verb is “agrees,” and the indicative clause that follows is “it is hard work.” From the point of view of grammar, the conjunction  “that” always introduces the clause after verbs that follow this pattern, but in actual speaking and writing, the word “that” is often omitted by English speakers, especially with the more common verbs such as “say,” “think,” and “know.” The pattern described here is one of the most common verb patterns in English. It is most typically used with verbs of stating, thinking, and believing. Let’s see an example.
               div(slot="textoEspanol")
-                p En la oración " #[em She agrees that it is hard work"], el verbo es #[em "agrees"] y la cláusula indicativa que sigue es " #[em it is hard work ]". Desde el punto de vista de la gramática, la conjunción "that" siempre introduce la cláusula después de los verbos que siguen este patrón, pero al hablar y escribir, los hablantes de inglés a menudo omiten la palabra #[em "that"], especialmente con los verbos más comunes, como #[em "say"], #[em "think"] y #[em "know"]. El patrón descrito aquí es uno de los patrones verbales más comunes en inglés. Se usa más típicamente con verbos de afirmar, pensar y creer. Veamos un ejemplo. 
+                p En la oración #[em "She agrees that it is hard work"], el verbo es #[em "agrees"] y la cláusula indicativa que sigue es #[em "it is hard work" ]. Desde el punto de vista de la gramática, la conjunción #[em "that"] siempre introduce la cláusula después de los verbos que siguen este patrón, pero al hablar y escribir, los hablantes de inglés a menudo omiten la palabra #[em "that"], especialmente con los verbos más comunes, como #[em "say"], #[em "think"] y #[em "know"]. El patrón descrito aquí es uno de los patrones verbales más comunes en inglés. Se usa más típicamente con verbos de afirmar, pensar y creer. Veamos un ejemplo. 
           .tarjeta.bg-white.p-5
             .row.justify-content-center.align-items-center
               .col-lg-4.mb-lg-0.mb-3
@@ -225,51 +225,51 @@
           .tarjeta-slyde.tarjeta.p-3(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/16.jpg')})`}" style="height: 391px; width: 245px")
             .tarjeta.p-2.w-100(style="background-color: #dddeff")
               .d-flex.justify-content-center
-                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema2/12.mp3')").mb-3
-              p.fw-bold.text-center Everyone agrees that we have to act now. 
+                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/c/H25_1.mp3')").mb-3
+              p.fw-bold.text-center.fst-italic Everyone agrees that we have to act now. 
         .col-lg-3.mb-4.mb-md-0
           .tarjeta-slyde.tarjeta.p-3(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/17.jpg')})`}" style="height: 391px; width: 245px")
             .tarjeta.p-2.w-100(style="background-color: #dddeff")
               .d-flex.justify-content-center
-                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema2/13.mp3')").mb-3
-              p.fw-bold.text-center It’s easy to forget that he’s just a child.
+                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/c/H25_2.mp3')").mb-3
+              p.fw-bold.text-center.fst-italic It’s easy to forget that he’s just a child.
         .col-lg-3.mb-4.mb-md-0
           .tarjeta-slyde.tarjeta.p-3(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/18.jpg')})`}" style="height: 391px; width: 245px")
             .tarjeta.p-2.w-100(style="background-color: #dddeff")
               .d-flex.justify-content-center
-                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema2/14.mp3')").mb-3
-              p.fw-bold.text-center Recent research proves that global warming is getting worse. 
+                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/c/H25_3.mp3')").mb-3
+              p.fw-bold.text-center.fst-italic Recent research proves that global warming is getting worse. 
         .col-lg-3.mb-4.mb-md-0
           .tarjeta-slyde.tarjeta.p-3(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/19.jpg')})`}" style="height: 391px; width: 245px")
             .tarjeta.p-2.w-100(style="background-color: #dddeff")
               .d-flex.justify-content-center
-                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema2/15.mp3')").mb-3
-              p.fw-bold.text-center I accept that this is a drawback. 
+                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/c/H25_4.mp3')").mb-3
+              p.fw-bold.text-center.fst-italic I accept that this is a drawback. 
       .row.justify-content-center
         .col-lg-3.mb-4.mb-md-0
           .tarjeta-slyde.tarjeta.p-3(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/20.jpg')})`}" style="height: 391px; width: 245px")
             .tarjeta.p-2.w-100(style="background-color: #dddeff")
               .d-flex.justify-content-center
-                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema2/16.mp3')").mb-3
-              p.fw-bold.text-center She said that they would be back by Monday. 
+                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/c/H25_5.mp3')").mb-3
+              p.fw-bold.text-center.fst-italic She said that they would be back by Monday. 
         .col-lg-3.mb-4.mb-md-0
           .tarjeta-slyde.tarjeta.p-3(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/21.jpg')})`}" style="height: 391px; width: 245px")
             .tarjeta.p-2.w-100(style="background-color: #dddeff")
               .d-flex.justify-content-center
-                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema2/17.mp3')").mb-3
+                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/c/H25_6.mp3')").mb-3
               p.fw-bold.text-center They know that this is mandatory. 
         .col-lg-3.mb-4.mb-md-0
           .tarjeta-slyde.tarjeta.p-3(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/22.jpg')})`}" style="height: 391px; width: 245px")
             .tarjeta.p-2.w-100(style="background-color: #dddeff")
               .d-flex.justify-content-center
-                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema2/18.mp3')").mb-3
-              p.fw-bold.text-center I agree that it is risky to drive on this road. 
+                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/c/H25_7.mp3')").mb-3
+              p.fw-bold.text-center.fst-italic I agree that it is risky to drive on this road. 
         .col-lg-3.mb-4.mb-md-0
           .tarjeta-slyde.tarjeta.p-3(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/23.jpg')})`}" style="height: 391px; width: 245px")
             .tarjeta.p-2.w-100(style="background-color: #dddeff")
               .d-flex.justify-content-center
-                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema2/19.mp3')").mb-3
-              p.fw-bold.text-center We suspected that the girl was lying. 
+                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/c/H25_8.mp3')").mb-3
+              p.fw-bold.text-center.fst-italic We suspected that the girl was lying. 
     .mn.p-5(style="background-color: #e1e8ff ")
       p.mb-2(data-aos='fade-right')
         span.r--3.fst-italic After having seen the grammatical structures to use the report verbs. We are invited to explore the video below:  

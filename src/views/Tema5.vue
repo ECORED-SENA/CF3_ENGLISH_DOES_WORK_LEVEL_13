@@ -13,21 +13,21 @@
             SlyderA
               div.tarjeta-face(:style="{'background-image': `url(${require('@/assets/curso/temas/tema5/1.svg')})`}" style="height: 412px; width: 505px; border-radius: 20px")
                 .d-flex.justify-content-center.p-5
-                  Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema5/5.mp3')").mb-3
+                  Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/c/h47_1.mp3')").mb-3
 
               div.tarjeta-face(:style="{'background-image': `url(${require('@/assets/curso/temas/tema5/2.svg')})`}" style="height: 412px; width: 505px; border-radius: 20px")
                 .d-flex.justify-content-center.p-5
-                  Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema5/6.mp3')").mb-3
+                  Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/c/h47_2.mp3')").mb-3
               div.tarjeta-face(:style="{'background-image': `url(${require('@/assets/curso/temas/tema5/3.svg')})`}" style="height: 412px; width: 505px; border-radius: 20px")
                 .d-flex.justify-content-center.p-5
-                  Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema5/7.mp3')").mb-3
+                  Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/c/h47_3.mp3')").mb-3
               div.tarjeta-face(:style="{'background-image': `url(${require('@/assets/curso/temas/tema5/4.svg')})`}" style="height: 412px; width: 505px; border-radius: 20px")
                 .d-flex.justify-content-center.p-5
-                  Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema5/8.mp3')").mb-3
+                  Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/c/h47_4.mp3')").mb-3
       .col-lg-7(data-aos="fade-left")
         traductor.color-acento-botones.mb-4
               div(slot="textoIngles")
-                p.fst-italic Pronunciation refers to the way in which we make the sound of words. To pronounce words, we push air from our lungs up through our throat and vocal chords, through our mouth, past our tongue and out between our teeth and lips. (Sometimes air also travels through our nose.) 
+                p.fst-italic Pronunciation refers to the way in which we make the sound of words. To pronounce words, we push air from our lungs up through our throat and vocal chords, through our mouth, pht our tongue and out between our teeth and lips. (Sometimes air also travels through our nose.) 
                   br
                   br
                   |To change the sound that we are making, we mainly use the muscles of our mouth, tongue and lips to control the shape of our mouth and the flow of air. If we can control the shape of our mouth and the flow of air correctly, then our pronunciation is clearer and other people understand us more easily. 
@@ -39,7 +39,7 @@
           traductor.color-acento-botones.mb-4
             .row(slot="textoIngles")
               .col-lg-1
-                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema5/9.mp3')").mb-3
+                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/c/h48.mp3')").mb-3
               .col-lg-11
                 p.fst-italic As well as creating correct vowel and consonant sounds using the muscles of our mouth, tongue and lips, there are other important aspects of pronunciation, including: 
             div(slot="textoEspanol")
@@ -50,34 +50,34 @@
                 img(src='@/assets/curso/temas/tema5/5.svg', alt='' style="width: 85px").me-3
                 .contenido.fst-italic 
                   p.mb-0
-                    span.r--2.fw-bold word stress
+                    span.r--2.fw-bold Word stress
                     br
-                    | emphasis on certain syllables in a word.
+                    | Emphasis on certain syllables in a word.
             .col-lg-6.mb-lg-0.mb-3
               .d-flex.align-items-center
                 img(src='@/assets/curso/temas/tema5/6.svg', alt='' style="width: 85px").me-3
                 .contenido.fst-italic 
                   p.mb-0
-                    span.r--2.fw-bold linking
+                    span.r--2.fw-bold Linking
                     br
-                    |  joining certain words together.
+                    |  Joining certain words together.
           .row.justify-content-center.mb-3
             .col-lg-6.mb-lg-0.mb-3
               .d-flex.align-items-center
                 img(src='@/assets/curso/temas/tema5/7.svg', alt='' style="width: 85px").me-3
                 .contenido.fst-italic 
                   p.mb-0
-                    span.r--2.fw-bold sentence stress
+                    span.r--2.fw-bold Sentence stress
                     br
-                    | emphasis on certain words in a sentence.
+                    | Emphasis on certain words in a sentence.
             .col-lg-6.mb-lg-0.mb-3
               .d-flex.align-items-center
                 img(src='@/assets/curso/temas/tema5/8.svg', alt='' style="width: 85px").me-3
                 .contenido.fst-italic 
                   p.mb-0
-                    span.r--2.fw-bold intonation 
+                    span.r--2.fw-bold Intonation 
                     br
-                    | the rise and fall of our voice as we speak.
+                    | The rise and fall of our voice as we speak.
         .col-lg-4.col-8(data-aos="fade-left"): img(src='@/assets/curso/temas/tema5/9.png', alt='')
       .row.justify-content-center.mb-5
         .col-lg-10
@@ -99,13 +99,13 @@
       .col-lg-7
         traductor.color-acento-botones.mb-4
               div(slot="textoIngles")
-                p.fst-italic There are 44 sounds in what is called “blends”, they are two or three consonants combined to form a different sound. They would be:#[span.r--2.fw-bold bl, cl, fl, gl, pl, br, cr, dr, fr, gr, pr, tr, sk, sl, sp, st, sw, spr, cr, str.] 
+                p.fst-italic There are 44 sounds in what is called “blends”, they are two or three consonants combined to form a different sound. They would be: #[span.r--2.fw-bold bl, cl, fl, gl, pl, br, cr, dr, fr, gr, pr, tr, sk, sl, sp, st, sw, spr, cr, str.] 
                   br
                   br
                   |We are going to review some of the most common blends in here: 
               div(slot="textoEspanol")
                 p
-                  span.r--gris Hay 44 sonidos en lo que se llama “mezclas”, son dos o tres consonantes combinadas para formar un sonido diferente. Serían: #[b bl, cl, fl, gl, pl, br, cr, dr, fr, gr, pr, tr, sk, sl, sp, st, sw, spr, cr, str. Vamos a revisar algunas de las mezclas más comunes:] 
+                  span.r--gris Hay 44 sonidos en lo que se llama “mezclas”, son dos o tres consonantes combinadas para formar un sonido diferente. Serían: #[b bl, cl, fl, gl, pl, br, cr, dr, fr, gr, pr, tr, sk, sl, sp, st, sw, spr, cr, str. #[br]#[br]Vamos a revisar algunas de las mezclas más comunes:] 
     SlyderA.p-5.mb-5
       .row.justify-content-center
         .col-lg-3.mb-4.mb-md-0
@@ -213,7 +213,7 @@
             div(slot="textoIngles")
               .row.justify-content-center.mb-3
                 .col-lg-1
-                  Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema5/10.mp3')").mb-3.me-5
+                  Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/c/h56.mp3')").mb-3.me-5
                 .col-lg-11
                   .ms-5
                     h4
@@ -268,7 +268,7 @@
           traductor.color-acento-botones.mb-4
             .row(slot="textoIngles")
               .col-lg-1
-                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema5/11.mp3')").mb-3
+                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/c/h57_1.mp3')").mb-3
               .col-lg-11
                 p.fst-italic When we speak, the way that we sound out the words and sentences is known as pronunciation. Depending on what your native language is, when you speak in English, you will have an accent. Someone’s accent depends on from where in their anglophone country they come and, indeed, which country.  
             div(slot="textoEspanol")
@@ -277,7 +277,7 @@
           traductor.color-acento-botones.mb-4
             .row(slot="textoIngles")
               .col-lg-1
-                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema5/12.mp3')").mb-3
+                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/c/h57_2.mp3')").mb-3
               .col-lg-11
                 p.fst-italic Stress is about which sounds we emphasize in words and sentences. For example, in the word ‘banana’ the stress is on the second syllable; in the word ‘orange’, the stress is on the first syllable. In sentences, we usually stress the most important ‘content’ words. 
             div(slot="textoEspanol")
@@ -305,7 +305,7 @@
               div(slot="textoIngles")
                 .row.justify-content-center.mb-5
                   .col-lg-1
-                    Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema5/13.mp3')").mb-3.me-4
+                    Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/c/h59_1.mp3')").mb-3.me-4
                   .col-lg-11
                     p.fst-italic #[span.r--4.fw-bold Rhythm:]  is about how we use a combination of stressed and unstressed words in sentences. 
                       br
@@ -313,11 +313,11 @@
                       |Sentences have strong beats (the stressed words) and weak beats (the unstressed words). 
                 .row.justify-content-center.mb-5
                   .col-lg-1
-                    Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema5/5.mp3')").mb-3.me-4
+                    Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/c/h59_2.mp3')").mb-3.me-4
                   .col-lg-11
                     p.fst-italic 
                       |#[span.r--4.fw-bold Intonation:] intonation is the way a speaker’s voice pitches up or down as they speak. We use intonation to help you get our message across. Intonation is the ‘music’ of the language. Let’s see some types of intonation: 
-              div(slot='textoIngles')
+              div(slot='textoEspanol')
                 p
                   span.r--gris El ritmo se trata sobre cómo usamos una combinación de palabras acentuadas y no acentuadas en las oraciones. 
                     br
@@ -330,7 +330,7 @@
           .card-adorno.p-4.tarjeta.h-100
             .bg-white.tarjeta.p-3
               .d-flex.justify-content-center.mb-4
-                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema5/5.mp3')").mb-3
+                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/c/h61_1.mp3')").mb-3
               p.text-center.fw-bold.fst-italic Falling intonation 
               traductor.color-acento-botones.mb-4
                 div(slot="textoIngles")
@@ -343,14 +343,14 @@
                     span.r--2 Why are you tired? 
                     br
                     br
-                    span.r--4 In addition, we also use falling intonation if we want to emphasize things or if we want to be definite or clear with our words or intentions. 
+                    span.r--4 In addition, we also use falling intonation if we want to emphasize things or if we want to be definite or clear with our words and intentions. 
                   p
                     span.r--gris No se encuentra traduccion 
         .col-lg-4.mb-lg-0.mb-3
           .card-adorno.p-4.tarjeta.h-100
             .bg-white.tarjeta.p-3
               .d-flex.justify-content-center.mb-4
-                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema5/5.mp3')").mb-3
+                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/c/h61_2.mp3')").mb-3
               p.text-center.fw-bold.fst-italic Rising Intonation 
               traductor.color-acento-botones.mb-4
                 div(slot="textoIngles")
@@ -369,7 +369,7 @@
           .card-adorno.p-4.tarjeta.h-100
             .bg-white.tarjeta.p-3
               .d-flex.justify-content-center.mb-4
-                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema5/5.mp3')").mb-3
+                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/c/h61_3.mp3')").mb-3
               p.text-center.fw-bold.fst-italic Fall-rise Intonation
               traductor.color-acento-botones.mb-4
                 div(slot="textoIngles")
@@ -389,7 +389,7 @@
         traductor.color-acento-botones.mb-4
           .row(slot="textoIngles")
             .col-lg-1
-              Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema5/5.mp3')").mb-3
+              Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/c/h63.mp3')").mb-3
             .col-lg-11
               p.fst-italic After having studied the rhythm in the phrase and intonation, we can conclude that the pronunciation of words in English does not only have to do with the pronunciation of letters, words, union of words and transformation of some. Now, we invite you to listen to the BBC Learning English podcast, where you will understand a theme of “English for dating online” and be able to identify the intonation and rhythm of each speaker. 
           div(slot="textoEspanol")
@@ -519,14 +519,14 @@
           .row.justify-content-center.align-items-center
             .col-lg-2.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema5/36.svg', alt='')
             .col-lg-6.mb-lg-0.mb-3
-              p.text-white Si es de su interes,  se le invita a #[em Practice Stress and Rhythm in English Pronunciation] en el siguiente enlace:
+              p.text-white Si es de su interés,  se le invita a #[em Practice Stress and Rhythm in English Pronunciation] en el siguiente enlace:
             .col-lg-4
               .d-flex.justify-content-center
                   a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=UbcEiFTmkQo" target="_blank")
                     .anexo__icono
                       img(src="@/assets/template/icono-link.svg")
                     .anexo__texto
-                      p #[b Enlace web.] tiempos perfectos ingles   
+                      p #[b Enlace web.] Tiempos perfectos ingles   
               
 
 
@@ -568,7 +568,7 @@ export default {
           personaje: 'Jim',
           textoIng:
             'It is a unit of pronunciation having one vowel sound, with or without surrounding consonants, forming the whole or a part of a word. ',
-          audio: require('@/assets/curso/audios/tema5/d2.mp3'),
+          audio: require('@/assets/curso/audios/c/h52_1.mp3'),
         },
         {
           personaje: 'Sue',
@@ -579,7 +579,7 @@ export default {
           personaje: 'Jim',
           textoIng:
             'Rhythm, in phonetics, is the speed and cadence of how you say a sentence.  ',
-          audio: require('@/assets/curso/audios/tema5/d4.mp3'),
+          audio: require('@/assets/curso/audios/c/h52_2.mp3'),
         },
         {
           personaje: 'Sue',

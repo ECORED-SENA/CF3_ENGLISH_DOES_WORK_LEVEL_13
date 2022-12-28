@@ -79,7 +79,7 @@ export default {
           personaje: 'Sue',
           textoIng:
             'How was your day? Did you work with your family for your family on behalf of your family? ',
-          audio: require('@/assets/curso/audios/tema4/1.mp3'),
+          audio: require('@/assets/curso/audios/c/h41_1.mp3'),
         },
         {
           personaje: 'Jim',
@@ -90,19 +90,18 @@ export default {
           personaje: 'Sue',
           textoIng:
             'Oh, please, do not think like that. Job gives us money, status, life.  ',
-          audio: require('@/assets/curso/audios/tema4/3.mp3'),
+          audio: require('@/assets/curso/audios/c/h41_2.mp3'),
         },
         {
           personaje: 'Jim',
-          textoIng:
-            '“I have dealt with a lot of crazy jobs in my whole life.”  ',
+          textoIng: 'I have dealt with a lot of crazy jobs in my whole life. ',
           audio: require('@/assets/curso/audios/tema4/4.mp3'),
         },
         {
           personaje: 'Sue',
           textoIng:
             'Me too, but this job is as crazy as holding water in our hands.',
-          audio: require('@/assets/curso/audios/tema4/5.mp3'),
+          audio: require('@/assets/curso/audios/c/h41_3.mp3'),
         },
       ],
     },
@@ -123,7 +122,7 @@ export default {
           textoIng:
             'How was your class? Was it done for the kids or *** the kids? ',
           textoEsp: '',
-          audio: require('@/assets/curso/audios/tema4/6.mp3'),
+          audio: require('@/assets/curso/audios/c/h45_1.mp3'),
           palabra: 'by',
         },
         {
@@ -139,7 +138,7 @@ export default {
           textoIng:
             'Compared to other students in the school, my students are ***. ',
           textoEsp: 'Yo necesito el libro de biologia y las ***.',
-          audio: require('@/assets/curso/audios/tema4/8.mp3'),
+          audio: require('@/assets/curso/audios/c/h45_2.mp3'),
           palabra: 'angels',
         },
         {
@@ -155,7 +154,7 @@ export default {
           textoIng:
             'I see, that&#39s the clue, I *** for my students, my society, myself.   ',
           textoEsp: 'Yo necesito el libro de biologia y las ***.',
-          audio: require('@/assets/curso/audios/tema4/10.mp3'),
+          audio: require('@/assets/curso/audios/c/h45_3.mp3'),
           palabra: 'teach',
         },
       ],
