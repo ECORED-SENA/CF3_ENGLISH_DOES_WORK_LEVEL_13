@@ -282,7 +282,7 @@
                 p.fst-italic Stress is about which sounds we emphasize in words and sentences. For example, in the word ‘banana’ the stress is on the second syllable; in the word ‘orange’, the stress is on the first syllable. In sentences, we usually stress the most important ‘content’ words. 
             div(slot="textoEspanol")
               p
-                span.r--gris El énfasis es sobre qué sonidos enfatizamos en palabras y oraciones. Por ejemplo, en la palabra #[em 'banana'] el acento está en la segunda sílaba; en la palabra #[em orange'] el acento está en la primera sílaba. En las oraciones, generalmente, enfatizamos las palabras de “contenido” más importantes. 
+                span.r--gris El énfasis es sobre qué sonidos enfatizamos en palabras y oraciones. Por ejemplo, en la palabra #[em 'banana'] el acento está en la segunda sílaba; en la palabra #[em 'orange'] el acento está en la primera sílaba. En las oraciones, generalmente, enfatizamos las palabras de “contenido” más importantes. 
             
         .col-lg-5.col-8(data-aos="fade-left"): img(src='@/assets/curso/temas/tema5/32.png', alt='')
       .row.justify-content-center.mb-5
@@ -344,8 +344,6 @@
                     br
                     br
                     span.r--4 In addition, we also use falling intonation if we want to emphasize things or if we want to be definite or clear with our words and intentions. 
-                  p
-                    span.r--gris No se encuentra traduccion 
         .col-lg-4.mb-lg-0.mb-3
           .card-adorno.p-4.tarjeta.h-100
             .bg-white.tarjeta.p-3
