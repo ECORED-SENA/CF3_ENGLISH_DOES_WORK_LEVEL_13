@@ -34,7 +34,7 @@
             | /  A continuación, se presenta el siguiente diálogo entre dos personajes que hablan sobre su rutina usando funciones retóricas. 
       .row.justify-content-center.mb-5
         .col-lg-7(data-aos="zoom-in")
-          img(src='@/assets/curso/temas/tema1/13.svg', alt='')
+          img(src='@/assets/curso/temas/tema1/dc.svg', alt='')
           .bg-dialog.p-4.pt-0
             .tarjeta.bg-white.p-4
               .dialogocolores
@@ -48,7 +48,7 @@
       span.r--3.fst-italic Let's see these dialogues to practice the topics seen: 
     Dialogo.color-acento-contenido(:dialogo="dialogo")
       template(#nombre-actividad) Arrastrar y Soltar
-      template(#titulo-actividad).fst-italic Rhetorical functions of the speech to complete 
+      template(#titulo-actividad) #[em Rhetorical functions of the speech to complete ]
       template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.
 
 </template>
@@ -113,7 +113,7 @@ export default {
         },
         {
           nombre: 'Tory',
-          img: require('@/assets/curso/temas/tema1/tory.svg'),
+          img: require('@/assets/curso/temas/tema1/tory2.svg'),
         },
       ],
       dialogo: [

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="398" height="144" viewBox="0 0 398 144">
+  <g id="Grupo_989164" data-name="Grupo 989164" transform="translate(-2)">
+    <rect id="Rectángulo_339142" data-name="Rectángulo 339142" width="398" height="144" rx="16" transform="translate(2)" fill="#ffbfc1"/>
+    <g id="Grupo_984113" data-name="Grupo 984113" transform="translate(0 12)">
+      <text id="She_agrees_that_it_is_hard_work." data-name="She agrees that it is hard work." transform="translate(20 44)" fill="#3c3fa7" font-size="24" font-family="Roboto-BlackItalic, Roboto" font-weight="800" font-style="italic"><tspan x="-165.48" y="25">She</tspan><tspan y="25" xml:space="preserve" fill="#ff5f65"> agrees </tspan><tspan y="25">that it</tspan><tspan y="25" xml:space="preserve" fill="#ff5f65"> is hard work.</tspan></text>
+      <text id="Verb" transform="translate(92)" fill="#fc5f65" font-size="18" font-family="Roboto-BlackItalic, Roboto" font-weight="800" font-style="italic"><tspan x="-18.918" y="19">Verb</tspan></text>
+      <text id="_that_" data-name="(that)" transform="translate(155 95)" fill="#6b8dfc" font-size="18" font-family="Roboto-BlackItalic, Roboto" font-weight="800" font-style="italic"><tspan x="-21.968" y="19">(that)</tspan></text>
+      <text id="clause" transform="translate(241)" fill="#3c3fa7" font-size="18" font-family="Roboto-BlackItalic, Roboto" font-weight="800" font-style="italic"><tspan x="-25.98" y="19">clause</tspan></text>
+      <g id="Rectángulo_339143" data-name="Rectángulo 339143" transform="translate(80 44)" fill="none" stroke="#fc5f65" stroke-width="1">
+        <rect width="75" height="32" stroke="none"/>
+        <rect x="0.5" y="0.5" width="74" height="31" fill="none"/>
+      </g>
+      <g id="Rectángulo_339144" data-name="Rectángulo 339144" transform="translate(155 44)" fill="none" stroke="#6b8dfc" stroke-width="1">
+        <rect width="51" height="32" stroke="none"/>
+        <rect x="0.5" y="0.5" width="50" height="31" fill="none"/>
+      </g>
+      <g id="Rectángulo_339145" data-name="Rectángulo 339145" transform="translate(226 44)" fill="none" stroke="#3c3fa7" stroke-width="1">
+        <rect width="145" height="32" stroke="none"/>
+        <rect x="0.5" y="0.5" width="144" height="31" fill="none"/>
+      </g>
+      <g id="Grupo_984110" data-name="Grupo 984110" transform="translate(112 25)">
+        <path id="Polígono_169" data-name="Polígono 169" d="M5.5,0,11,9H0Z" fill="#fc5f65"/>
+        <rect id="Rectángulo_339146" data-name="Rectángulo 339146" width="5" height="13" transform="translate(3 7)" fill="#fc5f65"/>
+      </g>
+      <g id="Grupo_984112" data-name="Grupo 984112" transform="translate(291 25)">
+        <path id="Polígono_169-2" data-name="Polígono 169" d="M5.5,0,11,9H0Z" fill="#3c3fa7"/>
+        <rect id="Rectángulo_339146-2" data-name="Rectángulo 339146" width="5" height="13" transform="translate(3 7)" fill="#3c3fa7"/>
+      </g>
+      <g id="Grupo_984111" data-name="Grupo 984111" transform="translate(185 76)">
+        <path id="Polígono_169-3" data-name="Polígono 169" d="M5.5,0,11,9H0Z" transform="translate(11 20) rotate(180)" fill="#6b8dfc"/>
+        <rect id="Rectángulo_339146-3" data-name="Rectángulo 339146" width="5" height="13" transform="translate(3)" fill="#6b8dfc"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -124,7 +124,7 @@
                 .col-lg-5.mb-lg-0.mb-3
                   .tarjeta.bg-white.p-3.h-100
                     img(src='@/assets/curso/temas/tema2/8.svg', alt='' style='width: 78px').m-auto.mb-5
-                    traductor.color-acento-botones
+                    traductor.color-acento-botones.no-translate
                       div(slot="textoIngles")
                         .d-flex.justify-content-center
                           Audio.color-acento-botones.mx-3.mb-3(:audio="require('@/assets/curso/audios/c/H21_1.mp3')")
@@ -136,7 +136,7 @@
                 .col-lg-5
                   .tarjeta.bg-white.p-3.h-100
                     img(src='@/assets/curso/temas/tema2/9.svg', alt='' style='width: 78px').m-auto.mb-5
-                    traductor.color-acento-botones
+                    traductor.color-acento-botones.no-translate
                       div(slot="textoIngles")
                         .d-flex.justify-content-center
                           Audio.color-acento-botones.mx-3.mb-3(:audio="require('@/assets/curso/audios/c/H21_2.mp3')")
@@ -149,7 +149,7 @@
                 .col-lg-5.mb-lg-0.mb-3
                   .tarjeta.bg-white.p-3.h-100
                     img(src='@/assets/curso/temas/tema2/10.svg', alt='' style='width: 78px').m-auto.mb-5
-                    traductor.color-acento-botones
+                    traductor.color-acento-botones.no-translate
                       div(slot="textoIngles")
                         .d-flex.justify-content-center
                           Audio.color-acento-botones.mx-3.mb-3(:audio="require('@/assets/curso/audios/c/H21_3.mp3')")
@@ -161,7 +161,7 @@
                 .col-lg-5
                   .tarjeta.bg-white.p-3.h-100
                     img(src='@/assets/curso/temas/tema2/11.svg', alt='' style='width: 78px').m-auto.mb-5
-                    traductor.color-acento-botones
+                    traductor.color-acento-botones.no-translate
                       div(slot="textoIngles")
                         .d-flex.justify-content-center
                           Audio.color-acento-botones.mx-3.mb-3(:audio="require('@/assets/curso/audios/c/H21_4.mp3')")
@@ -174,7 +174,7 @@
                 .col-lg-5.mb-lg-0.mb-3
                   .tarjeta.bg-white.p-3.h-100
                     img(src='@/assets/curso/temas/tema2/12.svg', alt='' style='width: 78px').m-auto.mb-5
-                    traductor.color-acento-botones
+                    traductor.color-acento-botones.no-translate
                       div(slot="textoIngles")
                         .d-flex.justify-content-center
                           Audio.color-acento-botones.mx-3.mb-3(:audio="require('@/assets/curso/audios/c/H21_5.mp3')")
@@ -212,7 +212,7 @@
           .tarjeta.bg-white.p-5
             .row.justify-content-center.align-items-center
               .col-lg-4.mb-lg-0.mb-3
-                p Grammatical pattern:
+                p #[em Grammatical pattern:]
                   br
                   span.r--2.fw-bold.fst-italic VERB + (that) + CLAUSE
               .col-lg-7: img(src='@/assets/curso/temas/tema2/15.png', alt='')
@@ -257,7 +257,7 @@
             .tarjeta.p-2.w-100(style="background-color: #dddeff")
               .d-flex.justify-content-center
                 Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/c/H25_6.mp3')").mb-3
-              p.fw-bold.text-center They know that this is mandatory. 
+              p.fw-bold.text-center.fst-italic They know that this is mandatory. 
         .col-lg-3.mb-4.mb-md-0
           .tarjeta-slyde.tarjeta.p-3(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/22.jpg')})`}" style="height: 391px; width: 245px")
             .tarjeta.p-2.w-100(style="background-color: #dddeff")

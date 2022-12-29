@@ -206,7 +206,7 @@
         img(src='@/assets/curso/temas/tema1/14.svg', alt='')
     Dialogo.color-acento-contenido(:dialogo="dialogo")
       template(#nombre-actividad) Arrastrar y Soltar
-      template(#titulo-actividad).fst-italic Friend's talk
+      template(#titulo-actividad) #[em Friend's talk]
       template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.
 
       
@@ -226,7 +226,7 @@ export default {
       personajes: [
         {
           nombre: 'Sue',
-          img: require('@/assets/curso/temas/tema1/dial1.svg'),
+          img: require('@/assets/curso/temas/tema1/dial3.svg'),
         },
         {
           nombre: 'Jim',
@@ -253,7 +253,7 @@ export default {
         {
           personaje: 'Jim',
           textoIng: 'Did you do his hair? ',
-          audio: require('@/assets/curso/audios/c/H16_1.mp3'),
+          audio: require('@/assets/curso/audios/c/H9_2.mp3'),
         },
         {
           personaje: 'Sue',

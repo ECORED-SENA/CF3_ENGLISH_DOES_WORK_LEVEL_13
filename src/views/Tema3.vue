@@ -119,13 +119,13 @@
                         |#[span.r--4.fw-bold The snow had an effect on his mood.] 
                     div(slot="textoEspanol")
                       p 
-                        |Sustantivo) un cambio que es el resultado de una acción o causa. 
+                        |(Sustantivo) un cambio que es el resultado de una acción o causa. 
                         br
                         br
                         |La nieve tuvo un efecto en su estado de ánimo. 
                   TarjetaAudio.color-acento-contenido.mb-3(
                     texto=""
-                    :audio="require('@/assets/curso/audios/tema3/2.mp3')"
+                    :audio="require('@/assets/curso/audios/c/H30_1.mp3')"
                     style='background-color: #c4d1ff'
                   )
               
@@ -154,7 +154,7 @@
                         |La nieve afectó su estado de ánimo. 
                   TarjetaAudio.color-acento-contenido.mb-3(
                     texto=""
-                    :audio="require('@/assets/curso/audios/tema3/3.mp3')"
+                    :audio="require('@/assets/curso/audios/c/H30_2.mp3')"
                     style='background-color: #c4d1ff'
                   )
     .bg-3-1.mn.p-5.mb-5
@@ -164,7 +164,7 @@
             p #[span.r--3.fst-italic Below is the following dialogue between two characters who talk about their routine using cause and effect expressions.]  #[span.r--gris / A continuación, se presenta el siguiente diálogo entre dos personajes que hablan sobre su rutina usando expresiones de causa y efecto. ]
             .row.justify-content-center.mb-5
               .col-lg-10
-                img(src='@/assets/curso/temas/tema3/7.svg', alt='')
+                img(src='@/assets/curso/temas/tema1/dc.svg', alt='')
                 .bg-dialog.pt-0
                   .bg-white.p-4(style='border-radius: 0px 0px 20px 20px')
                     DialogoChat(:dialogo="dialogoChat").color-acento-botones.noname.dialogocolores
@@ -176,7 +176,7 @@
               :audio="require('@/assets/curso/audios/c/H34.mp3')"
               style='background-color: #c4d1ff'
             )
-          traductor.color-acento-botones.mb-4
+          traductor.color-acento-botones.mb-4.no-translate
             div(slot="textoIngles")
               p.fst-italic Talking about causes and effects in English
                 br
@@ -198,7 +198,7 @@
               :audio="require('@/assets/curso/audios/c/h37.mp3')"
               style='background-color: #c4d1ff'
             )
-          traductor.color-acento-botones.mb-4
+          traductor.color-acento-botones.mb-.no-translate
             div(slot="textoIngles")
               p.fst-italic If we want to use the expression BECAUSE, we need to plan two sentences independently. For instance:
 
@@ -217,7 +217,7 @@
       span.r--3.fst-italic Let's see this dialogue to practice the topics seen: 
     Dialogo.color-acento-contenido(:dialogo="dialogo")
       template(#nombre-actividad) Arrastrar y Soltar
-      template(#titulo-actividad).fst-italic Expressing cause and effect to complete
+      template(#titulo-actividad) #[em  Expressing cause and effect to complete]
       template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.
           
               
@@ -273,7 +273,7 @@ export default {
           personaje: 'Sue',
           textoIng:
             'I see. Since my mom has the same issue, I understand what you must do',
-          audio: require('@/assets/curso/audios/tema3/lucas3.mp3'),
+          audio: require('@/assets/curso/audios/c/H31_3.mp3'),
         },
         {
           personaje: 'Jim',
@@ -297,7 +297,7 @@ export default {
         {
           personaje: 'Eliana',
           textoIng:
-            'What happened with your son´s test? You said you needed to study with him, *** did you study with him? ',
+            'What happened with your son&#39s test? You said you needed to study with him, *** did you study with him? ',
           textoEsp: '',
           audio: require('@/assets/curso/audios/tema3/eliana1.mp3'),
           palabra: 'so (1)',

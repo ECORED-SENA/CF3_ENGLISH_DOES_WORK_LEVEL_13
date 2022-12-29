@@ -17,15 +17,15 @@
 
               div.tarjeta-face(:style="{'background-image': `url(${require('@/assets/curso/temas/tema5/2.svg')})`}" style="height: 412px; width: 505px; border-radius: 20px")
                 .d-flex.justify-content-center.p-5
-                  Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/c/h47_2.mp3')").mb-3
+                  Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/c/h47_3.mp3')").mb-3
               div.tarjeta-face(:style="{'background-image': `url(${require('@/assets/curso/temas/tema5/3.svg')})`}" style="height: 412px; width: 505px; border-radius: 20px")
                 .d-flex.justify-content-center.p-5
-                  Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/c/h47_3.mp3')").mb-3
+                  Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/c/h47_2.mp3')").mb-3
               div.tarjeta-face(:style="{'background-image': `url(${require('@/assets/curso/temas/tema5/4.svg')})`}" style="height: 412px; width: 505px; border-radius: 20px")
                 .d-flex.justify-content-center.p-5
                   Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/c/h47_4.mp3')").mb-3
       .col-lg-7(data-aos="fade-left")
-        traductor.color-acento-botones.mb-4
+        traductor.color-acento-botones.mb-4.no-translate
               div(slot="textoIngles")
                 p.fst-italic Pronunciation refers to the way in which we make the sound of words. To pronounce words, we push air from our lungs up through our throat and vocal chords, through our mouth, pht our tongue and out between our teeth and lips. (Sometimes air also travels through our nose.) 
                   br
@@ -282,7 +282,7 @@
                 p.fst-italic Stress is about which sounds we emphasize in words and sentences. For example, in the word ‘banana’ the stress is on the second syllable; in the word ‘orange’, the stress is on the first syllable. In sentences, we usually stress the most important ‘content’ words. 
             div(slot="textoEspanol")
               p
-                span.r--gris El énfasis es sobre qué sonidos enfatizamos en palabras y oraciones. Por ejemplo, en la palabra 'banana' el acento está en la segunda sílaba; en la palabra 'orange' el acento está en la primera sílaba. En las oraciones, generalmente, enfatizamos las palabras de “contenido” más importantes. 
+                span.r--gris El énfasis es sobre qué sonidos enfatizamos en palabras y oraciones. Por ejemplo, en la palabra #[em 'banana'] el acento está en la segunda sílaba; en la palabra #[em orange'] el acento está en la primera sílaba. En las oraciones, generalmente, enfatizamos las palabras de “contenido” más importantes. 
             
         .col-lg-5.col-8(data-aos="fade-left"): img(src='@/assets/curso/temas/tema5/32.png', alt='')
       .row.justify-content-center.mb-5
@@ -332,7 +332,7 @@
               .d-flex.justify-content-center.mb-4
                 Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/c/h61_1.mp3')").mb-3
               p.text-center.fw-bold.fst-italic Falling intonation 
-              traductor.color-acento-botones.mb-4
+              traductor.color-acento-botones.mb-4.no-translate
                 div(slot="textoIngles")
                   p.fst-italic 
                     span.r--4 A falling intonation describes how the voice falls on the last syllable of the last word. This intonation is usually used in –wh questions- what, where, when, why, and how. 
@@ -352,7 +352,7 @@
               .d-flex.justify-content-center.mb-4
                 Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/c/h61_2.mp3')").mb-3
               p.text-center.fw-bold.fst-italic Rising Intonation 
-              traductor.color-acento-botones.mb-4
+              traductor.color-acento-botones.mb-4.no-translate
                 div(slot="textoIngles")
                   p.fst-italic  
                     span.r--4 The rising intonations can be placed at the end or at the last syllable of the word in a sentence. Yes - No questions use rising intonation. 
@@ -371,7 +371,7 @@
               .d-flex.justify-content-center.mb-4
                 Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/c/h61_3.mp3')").mb-3
               p.text-center.fw-bold.fst-italic Fall-rise Intonation
-              traductor.color-acento-botones.mb-4
+              traductor.color-acento-botones.mb-4.no-translate
                 div(slot="textoIngles")
                   p.fst-italic 
                     span.r--4 This intonation is used if we are doing questions that intend to ask permission, request, or an invitation to someone.  
@@ -394,7 +394,7 @@
               p.fst-italic After having studied the rhythm in the phrase and intonation, we can conclude that the pronunciation of words in English does not only have to do with the pronunciation of letters, words, union of words and transformation of some. Now, we invite you to listen to the BBC Learning English podcast, where you will understand a theme of “English for dating online” and be able to identify the intonation and rhythm of each speaker. 
           div(slot="textoEspanol")
             p
-              span.r--gris Después de haber estudiado el #[b ritmo en la frase y la entonación], podemos concluir que la pronunciación de palabras en inglés no solo tiene que ver con la pronunciación de letras, palabras, unión de palabras y transformación de algunas. Ahora, le invitamos a escuchar el podcast de la#[em #[b BBC Learning English]], donde se comprenderá una temática del #[b “Inglés para citas en línea] “y podrá identificar la entonación y el ritmo de cada hablante. 
+              span.r--gris Después de haber estudiado el #[b ritmo en la frase y la entonación], podemos concluir que la pronunciación de palabras en inglés no solo tiene que ver con la pronunciación de letras, palabras, unión de palabras y transformación de algunas. Ahora, le invitamos a escuchar el podcast de la #[em #[b BBC Learning English]], donde se comprenderá una temática del #[b “Inglés para citas en línea] “y podrá identificar la entonación y el ritmo de cada hablante. 
       .col-lg-5.col-8(data-aos="fade-left"): img(src='@/assets/curso/temas/tema5/34.png', alt='')
     .mn.p-5.mb-5(style="background-color: #fff0b5")
       .row.justify-content-center.mb-5
@@ -505,13 +505,13 @@
                   span.r--4.fw-bold.fst-italic BBC Learning English podcast
                 p.fst-italic #[span.r--2.fw-bold Roy]        
                   br
-                  |People often exaggerate things about themselves to seem more attractive online, for example that they love hanging out, or spending time with friends. Nicola also says there’s a difference between exaggerating and being deceptive - deliberately lying and making someone believe things that are not true. 
+                  |Good luck if you are looking for love online and remember - there’s probably someone out there interested in the real you. Bye for now! 
     p.mb-4(data-aos='fade-right')
       span.r--3.fst-italic  Next, the following practice dialogue is presented where the characters define important aspects in pronunciation. Please listen carefully.
     p.mb-5(data-aos='fade-right') A continuación, se presenta el siguiente diálogo de práctica, donde los personajes definen aspectos importantes en la pronunciación. Por favor, escuche con atención.  
     Dialogo.color-acento-contenido(:dialogo="dialogo").mb-5
       template(#nombre-actividad) Arrastrar y Soltar
-      template(#titulo-actividad).fst-italic Expressing cause and effect to complete
+      template(#titulo-actividad) #[em Expressing cause and effect to complete]
       template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -551,7 +551,7 @@ export default {
       personajes: [
         {
           nombre: 'Sue',
-          img: require('@/assets/curso/temas/tema1/dial1.svg'),
+          img: require('@/assets/curso/temas/tema1/dial3.svg'),
         },
         {
           nombre: 'Jim',
@@ -567,7 +567,7 @@ export default {
         {
           personaje: 'Jim',
           textoIng:
-            'It is a unit of pronunciation having one vowel sound, with or without surrounding consonants, forming the whole or a part of a word. ',
+            'It is a unit of pronunciation having one vowel sound, with or without surrounding consonants, forming the whole or  part of a word. ',
           audio: require('@/assets/curso/audios/c/h52_1.mp3'),
         },
         {
