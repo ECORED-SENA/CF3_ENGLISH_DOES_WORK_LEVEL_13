@@ -12,7 +12,7 @@
         traductor.color-acento-botones
             .row.justify-content-center(slot="textoIngles")
               .col-lg-1
-                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema2/1.mp3')")
+                Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/c/TEMA2.mp3')")
 
               .col-lg-11
                 p.fst-italic When expressing ourselves on a day-to-day basis, we often #[b refer to things that other people have said.] We are going to focus on the verbs that we use to introduce the words said by others: informative verbs. 
@@ -104,8 +104,41 @@
     p.mb-5(data-aos='fade-right')  
       span.r--4.fst-italic Below are some examples using #[b verb + person + infinitive.] 
       span.r--g / A continuación, se presentan algunos ejemplos utilizando #[b verbo + persona + infinitivo.]
-    //TODO preguntar a Yuly por el espacio vacio  
-    .mn.mb-5(style="background-color: #d8d8f1").p-5
+    //TODO preguntar a Yuly por el espacio vacio 
+    .row.justify-content-center.mb-5
+      .col-lg-4.mb-lg-0.mb-3 
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema2/c1.png' alt='AvatarTop')
+          .tarjeta.w-100(style="background-color: #DDDEFF ")
+            .p-4
+              .d-flex.justify-content-center
+                Audio.color-acento-botones.mx-3.mb-3(:audio="require('@/assets/curso/audios/c/hh1.mp3')")
+
+              h4.text-center 
+                span.r--4.fst-italic Verb + person + infinitive
+              p.fst-italic.text-center  She advised me to start doing a diet.
+      .col-lg-4.mb-lg-0.mb-3 
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema2/c2.png' alt='AvatarTop')
+          .tarjeta.w-100(style="background-color: #DDDEFF ")
+            .p-4
+              .d-flex.justify-content-center
+                Audio.color-acento-botones.mx-3.mb-3(:audio="require('@/assets/curso/audios/c/hh2.mp3')")
+
+              h4.text-center
+                span.r--4.fst-italic Verb + person + infinitive
+              p.fst-italic.text-center  He claimed that she was an accountant.
+      .col-lg-4
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema2/c3.png' alt='AvatarTop')
+          .tarjeta.w-100(style="background-color: #DDDEFF ")
+            .p-4
+              .d-flex.justify-content-center
+                Audio.color-acento-botones.mx-3.mb-3(:audio="require('@/assets/curso/audios/c/hh3.mp3')")
+
+              h4.text-center
+                span.r--4.fst-italic Verb + person + infinitive
+              p.fst-italic.text-center  I hope that I'll see you on Friday.
     Separador
     #t_2_3.titulo-segundo.color-primario(data-aos='fade-right')
       h2 2.3 #[em Verb + preposition + -ing]
@@ -191,11 +224,14 @@
             .contenido.p-2
               p.text-center.text-white Let´s see the next video in which the previous topic is explained in detail Prepositions + verb + ing, de la UNAM ( Universidad Abierta y Educación a Distancia). Ambiente virtual de idiomas.
               .d-flex.justify-content-center
-                a.anexo.mb-4.mb-lg-0(href="https://avi.cuaieed.unam.mx/practica-ingles.html" target="_blank")
+                a.anexo.mb-4.mb-lg-0(href="https://uapa.cuaieed.unam.mx/avi/ing_6/U_4/ing6_u4_t1/recursos/U4T13_AV01.mp4" target="_blank")
                   .anexo__icono
                     img(src="@/assets/template/icono-link.svg")
                   .anexo__texto
                     p #[b Enlace web.] Verb + preposition + -ing
+      Separador 
+      #t_2_4.titulo-segundo.color-primario(data-aos='fade-right')
+        h2 2.4 #[em Verb + that + clause]
       .row.justify-content-center.mb-5
         .col-lg-4.col-8(data-aos="fade-right").mb-lg-0.mb-3
           img(src='@/assets/curso/temas/tema2/14.png', alt='')
@@ -203,7 +239,7 @@
           traductor.color-acento-botones
               .row.justify-content-center(slot="textoIngles")
                 .col-lg-1
-                  Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema2/11.mp3')")
+                  Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/c/TEMA2.4.mp3')")
 
                 .col-lg-11
                   p.fst-italic In the sentence “She agrees that it is hard work,” the verb is “agrees,” and the indicative clause that follows is “it is hard work.” From the point of view of grammar, the conjunction  “that” always introduces the clause after verbs that follow this pattern, but in actual speaking and writing, the word “that” is often omitted by English speakers, especially with the more common verbs such as “say,” “think,” and “know.” The pattern described here is one of the most common verb patterns in English. It is most typically used with verbs of stating, thinking, and believing. Let’s see an example.

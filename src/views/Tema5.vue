@@ -290,7 +290,7 @@
           .tarjeta(style="background-color: #3c3fa7").p-5.card-cta
             img(src='@/assets/curso/temas/tema2/13.png', alt='' style="width: 187px")
             .contenido.p-2
-              p.text-center.text-white Si es de su interés ampliar la información sobre: #[span.r--2.fw-bold.fst-italic Stress and Rhythm in English Pronunciation], puede visitar el siguiente enlace: 
+              p.text-center.text-white Si es de su interés ampliar la información sobre: #[span.r--2.fw-bold.fst-italic Noun - and - verbs], puede visitar el siguiente enlace: 
               .d-flex.justify-content-center
                 a.anexo.mb-4.mb-lg-0(href="https://tfcs.baruch.cuny.edu/nouns-and-verbs/" target="_blank")
                   .anexo__icono
@@ -509,7 +509,7 @@
     p.mb-5(data-aos='fade-right') A continuación, se presenta el siguiente diálogo de práctica, donde los personajes definen aspectos importantes en la pronunciación. Por favor, escuche con atención.  
     Dialogo.color-acento-contenido(:dialogo="dialogo").mb-5
       template(#nombre-actividad) Arrastrar y Soltar
-      template(#titulo-actividad) #[em Expressing cause and effect to complete]
+      template(#titulo-actividad) #[em Pronunciation to complete]
       template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -524,7 +524,7 @@
                     .anexo__icono
                       img(src="@/assets/template/icono-link.svg")
                     .anexo__texto
-                      p #[b Enlace web.] Tiempos perfectos ingles   
+                      p #[b Enlace web.] #[em Stress and Rhythm in English Pronunciation]  
               
 
 
@@ -581,7 +581,7 @@ export default {
         },
         {
           personaje: 'Sue',
-          textoIng: ' see the importance of stress, rhythm, and intonation.',
+          textoIng: 'I see the importance of stress, rhythm, and intonation.',
           audio: require('@/assets/curso/audios/tema5/d5.mp3'),
         },
       ],

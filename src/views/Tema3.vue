@@ -278,7 +278,7 @@ export default {
         {
           personaje: 'Jim',
           textoIng: 'Yes.',
-          audio: require('@/assets/curso/audios/tema3/sophia2.mp3'),
+          audio: require('@/assets/curso/audios/c/YES.mp3'),
         },
       ],
     },

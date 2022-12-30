@@ -48,7 +48,7 @@ export default {
             icono: 'far fa-file-alt',
             numero: '2.1',
             titulo: '<em> Verb + infinitive</em> ',
-            hash: 't_1_1',
+            hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',

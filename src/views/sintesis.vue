@@ -15,7 +15,7 @@
                 br
                 | #[span.r--2.fw-bold Secondly], verb + person + infinitive; #[span.r--2.fw-bold thirdly], verb + preposition + -ing; and #[span.r--2.fw-bold finally], verb + that + clause. Then, the expressions to present cause and effect were reviewed as well as the rhetorical functions of the speech, and the right way to pronounce considering mixed sounds, stressed words and the rhythm in a sentence. 
             .col-lg-1
-              Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/introduccion.mp3')")
+              Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/c/sintesis.mp3')")
 
           div(slot="textoEspanol")
             p En este componente se utilizaron colocaciones y verbos para informar considerando las cuatro reglas: primero, verbo + infinitivo. 
